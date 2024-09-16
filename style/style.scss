@@ -5157,7 +5157,7 @@ html, body {
 		  }
 		  }
 		  .section__description{
-			  font-size: 20px;
+			  font-size: 18px;
 			  line-height: 30px;
 			  margin-top: 20px;
 		  @keyframes section__description {
@@ -7930,7 +7930,7 @@ html, body {
 			  }
 			  }
 			  .section__description{
-				  font-size: 18px;
+				  font-size: 20px;
 				  line-height: 30px;
 				  margin-top: 20px;
 				  text-align: center;
@@ -7962,8 +7962,8 @@ html, body {
 			  align-items: center;
 			  margin-bottom: 30px;
 			  .box__text{
-				  font-size: 14px;
-				  line-height: 26px;
+				  font-size: 12px;
+				  line-height: 20px;
 				  text-align: center;
 			  }
 			  .box__margin{
@@ -9338,6 +9338,15 @@ html, body {
 				  align-items: center;
 				  padding-left: 20px;
 				  padding-right: 20px;
+
+				  .sections__main {
+					position: relative;
+					bottom: 40px;
+					display: flex;
+					flex-direction: column;
+					align-items: center;
+				  }
+
 				  .section__h1{
 				  font-size: 36px;
 				  line-height: 30px;
@@ -9367,7 +9376,8 @@ html, body {
 				  }
 				  }
 				  .section__description{
-					  font-size: 18px;
+					width: 80%;
+					  font-size: 20px;
 					  line-height: 25px;
 					  margin-top: 20px;
 					  text-align: center;
@@ -9395,9 +9405,11 @@ html, body {
 				  width: 100%;
 				  min-height: auto;
 				  display: flex;
-				  justify-content: center;
+				  flex-direction: column;
 				  align-items: center;
+				  justify-content: flex-start;
 				  margin-bottom: 30px;
+				  gap: 20px;
 				  .box__text{
 					  font-size: 14px;
 					  line-height: 20px;
@@ -9406,7 +9418,8 @@ html, body {
 				  .box__margin{
 					  position: relative;
 					  left: 0px;
-					  margin-left: 20px;
+					  text-align: center;
+					  margin-left: 0px;
 				  }
 			  }
 			  .right__section{
