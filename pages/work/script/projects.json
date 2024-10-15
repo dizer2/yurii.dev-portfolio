@@ -1,0 +1,118 @@
+[
+	{
+		"id": 1,
+		"title": "Brightkids school (USA)",
+		"subTitle": "Bright Kids Ukrainian Online School",
+		"link": "https://brightkids.online",
+		"imgLink": "brightkids.jpg",
+		"gitHubLink": "https://github.com/azakharko/bright_kids_website",
+		"description": "Developed a responsive website for Bright Kids Ukrainian Online School using React.js, focusing on user-friendly design and seamless functionality. This project allowed me to enhance my web development skills while collaborating closely with clients and work with Senior developer to meet their needs. During this period, I learned how to implement localization for the website and create content suitable for different age categories.",
+		"tegList": ["#it", "#react", "#localisation"]
+	},
+	{
+		"id": 2,
+		"title": "Creator IT Academy (UA)",
+		"subTitle": "Creator IT Online Academy",
+		"link": "https://creator-it-academy.com/",
+		"imgLink": "it-creator-academy.jpg",
+		"figmaLink": "https://www.figma.com/design/4RDubsfyIRTiMyKf9k1TZz/IT-ACEDEMY?node-id=0-1&t=QlWZCfdlPeUdfoXP-1",
+		"gitHubLink": "https://github.com/azakharko/bright_kids_website",
+		"description": "Developed a website for a network of academies in Ukraine, focusing on the Home, Chart, Courses, and Maps sections. The project utilized the JavaScript libraries jQuery, Chart.js, Swiper.js, and the Google Maps API. Additionally, I developed the UX/UI aspects of the website, ensuring it is responsive and user-friendly.",
+		"tegList": ["#it", "#jQuery", "#chart.js", "#swiper.js"]
+	},
+	{
+		"id": 3,
+		"title": "OKFG (CZ)",
+		"subTitle": "Trade Connection Company Between the EU and Ukraine",
+		"link": "https://www.okfg.cz/",
+		"imgLink": "okfg.jpg",
+		"figmaLink": "https://www.figma.com/design/xuBIhJUdQCCdKNbzLdLnKt/OKFG?node-id=1-1332&node-type=frame&t=34HgaipuzF8UmKC7-0",
+		"description": "I developed a comprehensive website for a Czech client, focusing on UX/UI design, hosting, SEO, and optimization. This project allowed me to enhance my skills in creating user-friendly interfaces while ensuring effective online presence and performance. The site serves as a vital trade connection between the EU and Ukraine.",
+		"tegList": ["#it", "#react", "#localisation"]
+	},
+	{
+		"id": 4,
+		"title": "Yantarne FM (UA)",
+		"subTitle": "Radio station in Novoiavorivsk",
+		"link": "https://yantarne.fm/",
+		"imgLink": "yantarnefm.jpg",
+		"gitHubLink": "https://github.com/ihymon/yantarne.fm",
+		"description": "Collaborated with the UDOX team to develop a website for a local radio station, contributing to the creation of the Home and Courses pages. Additionally, designed multiple versions of the website and worked on a future redesign. During this projects, I learned how to work with the radio API and creating UI for big audience.",
+		"tegList": ["#it","#jQuery", "#swiper.js", "radio API"]
+	},
+	{
+		"id": 5,
+		"title": "Essentialyfe (USA)",
+		"subTitle": "Estate Agency in Los Angeles",
+		"link": "https://www.figma.com/proto/FN75irawI6Gg5IU1A2vTfv/Redesign-Essentialyfe?type=design&node-id=6-215&t=FwmgA4dSpjTkScOf-1&scaling=scale-down&page-id=0%3A1&starting-point-node-id=44%3A3845&mode=design",
+		"imgLink": "essentialyfe.jpg",
+		"description": "Redesigned interview tasks for Essentialyfe, a company based in Los Angeles. Developed a fully animated prototype in Figma, showcasing my design and technical skills. As part of the interview process, I presented the project in English, which helped improve both my public speaking and English communication skills.",
+		"tegList": ["#design","#figma", "#ui/ux", "animation"]
+	},
+	{
+		"id": 6,
+		"title": "Passion Project Blog (PET)",
+		"subTitle": "A blog platform for everyone to share their voice.",
+		"link": "https://yurii-blog.vercel.app",
+		"imgLink": "blog.jpg",
+		"gitHubLink": "https://github.com/dizer2/next-blog",
+		"description": "This website allows users to create and share articles with the world, whether for school projects, friends, or just for fun. Through this project, I developed a strong understanding of Next.js principles, how to integrate Prisma, and effectively connect the frontend with the backend using MongoDB.",
+		"tegList": ["#it","#next.js", "#prisma", "#mongodb"]
+	},
+	{
+		"id": 7,
+		"title": "Okolus (PET)",
+		"subTitle": "Modern UI Design for an Eyewear Agency",
+		"link": "https://www.figma.com/proto/yuERnwZUVgMkdgKAeTmvyh/Okolus?type=design&node-id=106-2330&t=O4oLZLUOadUD8Vlc-1&scaling=scale-down&page-id=0%3A1&starting-point-node-id=106%3A2330&mode=design",
+		"imgLink": "okolus.jpg",
+		"gitHubLink": "https://github.com/dizer2/next-blog",
+		"description": "I developed this web design as a personal project to enhance my UI/UX design skills, combining advanced tools with Figma for prototyping. The site features interactive sliders and hover effects, providing a sleek, responsive experience. This project helped me practice blending design elements with functionality, resulting in a polished product.",
+		"tegList": ["#design","#ui/ux", "#figma", "#animation"]
+	},
+	{
+		"id": 8,
+		"title": "СоноМед (UA)",
+		"subTitle": "Logo Design for a Modern Medical Company",
+		"link": "https://www.figma.com/design/nhSxEmRTIuYtooIkiuwPly/%D0%A1%D0%BE%D0%BD%D0%BE-%D0%BC%D0%B5%D0%B4?node-id=0-1&node-type=canvas&t=7IQMPKWUDRZMV8JU-0",
+		"imgLink": "sonomed.jpg",
+		"description": "I designed a logo for a medical company in Ukraine, focusing on a clean and modern aesthetic. The logo was crafted using Adobe Illustrator, emphasizing professionalism and trust. This project allowed me to explore branding concepts and develop my skills in logo design",
+		"tegList": ["#design","#illustrator", "#logo"]
+	},
+	{
+		"id": 9,
+		"title": "Yantarne FM Billboard (UA)",
+		"subTitle": "Logo Design for a Modern Medical Company",
+		"link": "https://yantarne.fm/",
+		"imgLink": "billboard.jpg",
+		"description": "I designed a logo for a medical company in Ukraine, focusing on a clean and modern aesthetic. The logo was crafted using Adobe Illustrator, emphasizing professionalism and trust. This project allowed me to explore branding concepts and develop my skills in logo design",
+		"tegList": ["#design","#illustrator", "#logo"]
+	},
+	{
+		"id": 10,
+		"title": "Fun poster (PET)",
+		"subTitle": "Vibrant Poster for a Music Concert Featuring Billie Eilish",
+		"link": "https://www.figma.com/design/nekJZn1aTykgOb8oJiC9kO/Poster?node-id=2003-3&node-type=frame&t=HAxgdbwPzJ2qON0T-0",
+		"imgLink": "poster.jpg",
+		"description": "I created a lively poster for a music concert featuring Billie Eilish, Eminem, and Dwayne Johnson. Using Figma, I focused on dynamic visuals and typography to capture the energy of the event. This project allowed me to experiment with layout design and develop my skills in creating eye-catching promotional materials.",
+		"tegList": ["#design","#figma", "#poster"]
+	},
+	{
+		"id": 11,
+		"title": "Rick and Morty (PET)",
+		"subTitle": "Interactive Website for a Cartoon Series",
+		"link": "https://rick-morty-pink-beta.vercel.app/",
+		"gitHubLink": "https://github.com/dizer2/rick-morty",
+		"imgLink": "rick.jpg",
+		"description": "I designed an interactive website for the popular cartoon series, Rick and Morty, using React.js and Figma. This project allowed me to learn how to work with APIs, enhancing user experience through dynamic content. The site features engaging visuals and user-friendly navigation, capturing the essence of the show.",
+		"tegList": ["#it","#react.js", "#api"]
+	},
+	{
+		"id": 12, 
+		"title": "Vemi (PET)",
+		"subTitle": "",
+		"link": "https://www.figma.com/proto/UNUW10IytxgeBJoXb0MLAo/Vemi?node-id=188-2315&node-type=frame&t=jkThUiw3K1Ad0hqj-0&scaling=scale-down&content-scaling=fixed&page-id=0%3A1&starting-point-node-id=188%3A2315",
+		"imgLink": "vemi.jpg",
+		"description": "I created a lively poster for a music concert featuring Billie Eilish, Eminem, and Dwayne Johnson. Using Figma, I focused on dynamic visuals and typography to capture the energy of the event. This project allowed me to experiment with layout design and develop my skills in creating eye-catching promotional materials.",
+		"tegList": ["#design","#figma", "#poster"]
+	}
+]

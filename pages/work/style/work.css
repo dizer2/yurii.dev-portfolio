@@ -3,7 +3,7 @@
 
 /* Handle */
 ::-webkit-scrollbar-thumb {
-  background: #4831D4; }
+  background: #4831d4; }
 
 body ::-moz-selection {
   background-color: rgba(255, 255, 255, 0.1); }
@@ -19,31 +19,31 @@ a {
   text-decoration: none; }
 
 @font-face {
-  font-family: 'SF UI Text';
+  font-family: "SF UI Text";
   src: url(".../../../../../font/SFUIText-Regular.ttf") format("woff");
   font-display: swap;
   font-style: normal;
   font-weight: 400; }
 @font-face {
-  font-family: 'SF UI Text';
+  font-family: "SF UI Text";
   src: url(".../../../../../font/SFUIText-Medium.ttf") format("woff");
   font-display: swap;
   font-style: normal;
   font-weight: 500; }
 @font-face {
-  font-family: 'SF UI Text';
+  font-family: "SF UI Text";
   src: url(".../../../../../font/SFUIText-Semibold.ttf") format("woff");
   font-display: swap;
   font-style: normal;
   font-weight: 600; }
 @font-face {
-  font-family: 'SF UI Text';
+  font-family: "SF UI Text";
   src: url(".../../../../../font/SFUIText-Bold.ttf") format("woff");
   font-display: swap;
   font-style: normal;
   font-weight: 700; }
 @font-face {
-  font-family: 'SF UI Text';
+  font-family: "SF UI Text";
   src: url(".../../../../../font/SFUIText-Heavy.ttf") format("woff");
   font-display: swap;
   font-style: normal;
@@ -53,12 +53,15 @@ a {
   margin: 0;
   box-sizing: border-box; }
 
-html, body {
+html,
+body {
   overflow: auto;
   overflow-x: hidden;
   -webkit-font-smoothing: antialiased; }
 
-.container .header, .sections .header, .section .header {
+.container .header,
+.sections .header,
+.section .header {
   width: 100%;
   height: 10vh;
   display: flex;
@@ -71,24 +74,32 @@ html, body {
   top: 40%;
   position: absolute;
   top: -1%; }
-  .container .header .header__logo, .sections .header .header__logo, .section .header .header__logo {
-    font-family: 'SF UI Text';
+  .container .header .header__logo,
+  .sections .header .header__logo,
+  .section .header .header__logo {
+    font-family: "SF UI Text";
     font-style: normal;
     font-weight: 800;
     font-size: 40px;
     line-height: 48px;
-    color: #4831D4;
+    color: #4831d4;
     user-select: none;
     cursor: pointer; }
-    .container .header .header__logo .header__img, .sections .header .header__logo .header__img, .section .header .header__logo .header__img {
+    .container .header .header__logo .header__img,
+    .sections .header .header__logo .header__img,
+    .section .header .header__logo .header__img {
       position: relative;
       top: 13px;
       margin-left: 2px;
       margin-right: 2px; }
-    .container .header .header__logo .header__color, .sections .header .header__logo .header__color, .section .header .header__logo .header__color {
-      fill: #4831D4;
+    .container .header .header__logo .header__color,
+    .sections .header .header__logo .header__color,
+    .section .header .header__logo .header__color {
+      fill: #4831d4;
       transition: 1s; }
-  .container .header .first__logo-active, .sections .header .first__logo-active, .section .header .first__logo-active {
+  .container .header .first__logo-active,
+  .sections .header .first__logo-active,
+  .section .header .first__logo-active {
     animation-name: first__logo;
     animation-duration: 1s;
     animation-iteration-count: 1; }
@@ -99,7 +110,9 @@ html, body {
   100% {
     position: relative;
     left: 0px; } }
-  .container .header .last__logo-active, .sections .header .last__logo-active, .section .header .last__logo-active {
+  .container .header .last__logo-active,
+  .sections .header .last__logo-active,
+  .section .header .last__logo-active {
     animation-name: last__logo;
     animation-duration: 1s;
     animation-iteration-count: 1; }
@@ -110,10 +123,14 @@ html, body {
   100% {
     position: relative;
     right: 0px; } }
-  .container .header .burger__box, .sections .header .burger__box, .section .header .burger__box {
+  .container .header .burger__box,
+  .sections .header .burger__box,
+  .section .header .burger__box {
     display: flex;
     justify-content: flex-end; }
-    .container .header .burger__box .contact__menu, .sections .header .burger__box .contact__menu, .section .header .burger__box .contact__menu {
+    .container .header .burger__box .contact__menu,
+    .sections .header .burger__box .contact__menu,
+    .section .header .burger__box .contact__menu {
       position: absolute;
       -webkit-transition: opacity 0.4s, box-shadow 0.4s;
       transition: opacity 0.4s, box-shadow 0.4s;
@@ -130,7 +147,9 @@ html, body {
       -webkit-flex-direction: column;
       -ms-flex-direction: column;
       flex-direction: column; }
-      .container .header .burger__box .contact__menu .contact__box, .sections .header .burger__box .contact__menu .contact__box, .section .header .burger__box .contact__menu .contact__box {
+      .container .header .burger__box .contact__menu .contact__box,
+      .sections .header .burger__box .contact__menu .contact__box,
+      .section .header .burger__box .contact__menu .contact__box {
         width: 100%;
         height: 100%;
         background-color: transparent;
@@ -140,15 +159,17 @@ html, body {
         flex-direction: column;
         padding-top: 12%;
         padding-left: 55px; }
-        .container .header .burger__box .contact__menu .contact__box .contact__box1 .contact__text, .sections .header .burger__box .contact__menu .contact__box .contact__box1 .contact__text, .section .header .burger__box .contact__menu .contact__box .contact__box1 .contact__text {
+        .container .header .burger__box .contact__menu .contact__box .contact__box1 .contact__text,
+        .sections .header .burger__box .contact__menu .contact__box .contact__box1 .contact__text,
+        .section .header .burger__box .contact__menu .contact__box .contact__box1 .contact__text {
           z-index: 9999;
-          font-family: 'SF UI Text';
+          font-family: "SF UI Text";
           font-style: normal;
           font-weight: 500;
           font-size: 20px;
           line-height: 29px;
           letter-spacing: 0.04em;
-          color: #4831D4;
+          color: #4831d4;
           cursor: pointer;
           margin-top: 20px;
           -webkit-text-decoration: none;
@@ -159,7 +180,9 @@ html, body {
           -webkit-transition-property: opacity, color, background-color, transform, border;
           transition-property: opacity, color, background-color, transform, border;
           position: relative; }
-          .container .header .burger__box .contact__menu .contact__box .contact__box1 .contact__text::after, .sections .header .burger__box .contact__menu .contact__box .contact__box1 .contact__text::after, .section .header .burger__box .contact__menu .contact__box .contact__box1 .contact__text::after {
+          .container .header .burger__box .contact__menu .contact__box .contact__box1 .contact__text::after,
+          .sections .header .burger__box .contact__menu .contact__box .contact__box1 .contact__text::after,
+          .section .header .burger__box .contact__menu .contact__box .contact__box1 .contact__text::after {
             top: 0;
             right: 0;
             bottom: 0;
@@ -168,7 +191,7 @@ html, body {
             transition: 0.3s;
             width: 30px;
             height: 100%;
-            content: '';
+            content: "";
             position: absolute;
             left: 100%;
             -webkit-transform-origin: right;
@@ -176,7 +199,9 @@ html, body {
             transform-origin: right;
             background-color: rgba(255, 255, 255, 0.3);
             opacity: 0; }
-        .container .header .burger__box .contact__menu .contact__box .contact__box1 .contact__text:hover:after, .sections .header .burger__box .contact__menu .contact__box .contact__box1 .contact__text:hover:after, .section .header .burger__box .contact__menu .contact__box .contact__box1 .contact__text:hover:after {
+        .container .header .burger__box .contact__menu .contact__box .contact__box1 .contact__text:hover:after,
+        .sections .header .burger__box .contact__menu .contact__box .contact__box1 .contact__text:hover:after,
+        .section .header .burger__box .contact__menu .contact__box .contact__box1 .contact__text:hover:after {
           top: 0;
           right: 0;
           bottom: 0;
@@ -185,14 +210,16 @@ html, body {
           transition: 0.3s;
           width: 30px;
           height: 100%;
-          content: '';
+          content: "";
           position: absolute;
           -webkit-transform-origin: right;
           -ms-transform-origin: right;
           transform-origin: right;
           background-color: rgba(72, 49, 212, 0.1);
           opacity: 1; }
-        .container .header .burger__box .contact__menu .contact__box .contact__box-active, .sections .header .burger__box .contact__menu .contact__box .contact__box-active, .section .header .burger__box .contact__menu .contact__box .contact__box-active {
+        .container .header .burger__box .contact__menu .contact__box .contact__box-active,
+        .sections .header .burger__box .contact__menu .contact__box .contact__box-active,
+        .section .header .burger__box .contact__menu .contact__box .contact__box-active {
           animation-name: contact__box;
           animation-duration: 0.5s;
           animation-iteration-count: 1; }
@@ -207,29 +234,35 @@ html, body {
     -webkit-transform: translate3d(0, 0, 0);
     -ms-transform: translate3d(0, 0, 0);
     transform: translate3d(0, 0, 0); } }
-        .container .header .burger__box .contact__menu .contact__box .contact__box2, .sections .header .burger__box .contact__menu .contact__box .contact__box2, .section .header .burger__box .contact__menu .contact__box .contact__box2 {
+        .container .header .burger__box .contact__menu .contact__box .contact__box2,
+        .sections .header .burger__box .contact__menu .contact__box .contact__box2,
+        .section .header .burger__box .contact__menu .contact__box .contact__box2 {
           opacity: 0; }
-          .container .header .burger__box .contact__menu .contact__box .contact__box2 .contact__text2, .sections .header .burger__box .contact__menu .contact__box .contact__box2 .contact__text2, .section .header .burger__box .contact__menu .contact__box .contact__box2 .contact__text2 {
+          .container .header .burger__box .contact__menu .contact__box .contact__box2 .contact__text2,
+          .sections .header .burger__box .contact__menu .contact__box .contact__box2 .contact__text2,
+          .section .header .burger__box .contact__menu .contact__box .contact__box2 .contact__text2 {
             z-index: 9999;
-            font-family: 'SF UI Text';
+            font-family: "SF UI Text";
             font-style: normal;
             font-weight: 500;
             font-size: 20px;
             line-height: 29px;
             letter-spacing: 0.04em;
-            color: #CBCCE8;
+            color: #cbcce8;
             cursor: pointer;
             margin-top: 70px;
             text-transform: uppercase; }
-          .container .header .burger__box .contact__menu .contact__box .contact__box2 .contact__text, .sections .header .burger__box .contact__menu .contact__box .contact__box2 .contact__text, .section .header .burger__box .contact__menu .contact__box .contact__box2 .contact__text {
+          .container .header .burger__box .contact__menu .contact__box .contact__box2 .contact__text,
+          .sections .header .burger__box .contact__menu .contact__box .contact__box2 .contact__text,
+          .section .header .burger__box .contact__menu .contact__box .contact__box2 .contact__text {
             z-index: 9999;
-            font-family: 'SF UI Text';
+            font-family: "SF UI Text";
             font-style: normal;
             font-weight: 500;
             font-size: 20px;
             line-height: 29px;
             letter-spacing: 0.04em;
-            color: #4831D4;
+            color: #4831d4;
             cursor: pointer;
             -webkit-text-decoration: none;
             text-decoration: none;
@@ -239,7 +272,9 @@ html, body {
             -webkit-transition-property: opacity, color, background-color, transform, border;
             transition-property: opacity, color, background-color, transform, border;
             position: relative; }
-            .container .header .burger__box .contact__menu .contact__box .contact__box2 .contact__text::after, .sections .header .burger__box .contact__menu .contact__box .contact__box2 .contact__text::after, .section .header .burger__box .contact__menu .contact__box .contact__box2 .contact__text::after {
+            .container .header .burger__box .contact__menu .contact__box .contact__box2 .contact__text::after,
+            .sections .header .burger__box .contact__menu .contact__box .contact__box2 .contact__text::after,
+            .section .header .burger__box .contact__menu .contact__box .contact__box2 .contact__text::after {
               top: 0;
               right: 0;
               bottom: 0;
@@ -248,7 +283,7 @@ html, body {
               transition: 0.3s;
               width: 30px;
               height: 100%;
-              content: '';
+              content: "";
               position: absolute;
               left: 100%;
               -webkit-transform-origin: right;
@@ -256,7 +291,9 @@ html, body {
               transform-origin: right;
               background-color: rgba(255, 255, 255, 0.3);
               opacity: 0; }
-          .container .header .burger__box .contact__menu .contact__box .contact__box2 .contact__text:hover:after, .sections .header .burger__box .contact__menu .contact__box .contact__box2 .contact__text:hover:after, .section .header .burger__box .contact__menu .contact__box .contact__box2 .contact__text:hover:after {
+          .container .header .burger__box .contact__menu .contact__box .contact__box2 .contact__text:hover:after,
+          .sections .header .burger__box .contact__menu .contact__box .contact__box2 .contact__text:hover:after,
+          .section .header .burger__box .contact__menu .contact__box .contact__box2 .contact__text:hover:after {
             top: 0;
             right: 0;
             bottom: 0;
@@ -265,20 +302,26 @@ html, body {
             transition: 0.3s;
             width: 30px;
             height: 100%;
-            content: '';
+            content: "";
             position: absolute;
             -webkit-transform-origin: right;
             -ms-transform-origin: right;
             transform-origin: right;
             background-color: rgba(72, 49, 212, 0.1);
             opacity: 1; }
-          .container .header .burger__box .contact__menu .contact__box .contact__box2 .contact__margin, .sections .header .burger__box .contact__menu .contact__box .contact__box2 .contact__margin, .section .header .burger__box .contact__menu .contact__box .contact__box2 .contact__margin {
+          .container .header .burger__box .contact__menu .contact__box .contact__box2 .contact__margin,
+          .sections .header .burger__box .contact__menu .contact__box .contact__box2 .contact__margin,
+          .section .header .burger__box .contact__menu .contact__box .contact__box2 .contact__margin {
             position: relative;
             top: 20px; }
-          .container .header .burger__box .contact__menu .contact__box .contact__box2 .contact__margin2, .sections .header .burger__box .contact__menu .contact__box .contact__box2 .contact__margin2, .section .header .burger__box .contact__menu .contact__box .contact__box2 .contact__margin2 {
+          .container .header .burger__box .contact__menu .contact__box .contact__box2 .contact__margin2,
+          .sections .header .burger__box .contact__menu .contact__box .contact__box2 .contact__margin2,
+          .section .header .burger__box .contact__menu .contact__box .contact__box2 .contact__margin2 {
             position: relative;
             top: 40px; }
-        .container .header .burger__box .contact__menu .contact__box .contact2__box-active, .sections .header .burger__box .contact__menu .contact__box .contact2__box-active, .section .header .burger__box .contact__menu .contact__box .contact2__box-active {
+        .container .header .burger__box .contact__menu .contact__box .contact2__box-active,
+        .sections .header .burger__box .contact__menu .contact__box .contact2__box-active,
+        .section .header .burger__box .contact__menu .contact__box .contact2__box-active {
           animation-name: contact__box2;
           animation-duration: 0.5s;
           animation-iteration-count: 1;
@@ -294,23 +337,33 @@ html, body {
     -webkit-transform: translate3d(0, 0, 0);
     -ms-transform: translate3d(0, 0, 0);
     transform: translate3d(0, 0, 0); } }
-        .container .header .burger__box .contact__menu .contact__box .sociable__box, .sections .header .burger__box .contact__menu .contact__box .sociable__box, .section .header .burger__box .contact__menu .contact__box .sociable__box {
+        .container .header .burger__box .contact__menu .contact__box .sociable__box,
+        .sections .header .burger__box .contact__menu .contact__box .sociable__box,
+        .section .header .burger__box .contact__menu .contact__box .sociable__box {
           display: flex;
           height: 40px;
           align-items: center;
           opacity: 0; }
-          .container .header .burger__box .contact__menu .contact__box .sociable__box .socible__img, .sections .header .burger__box .contact__menu .contact__box .sociable__box .socible__img, .section .header .burger__box .contact__menu .contact__box .sociable__box .socible__img {
+          .container .header .burger__box .contact__menu .contact__box .sociable__box .socible__img,
+          .sections .header .burger__box .contact__menu .contact__box .sociable__box .socible__img,
+          .section .header .burger__box .contact__menu .contact__box .sociable__box .socible__img {
             width: 35px;
             height: 35px;
             transition: 0.1s;
             position: relative;
             top: 110px; }
-          .container .header .burger__box .contact__menu .contact__box .sociable__box .socible__img:hover, .sections .header .burger__box .contact__menu .contact__box .sociable__box .socible__img:hover, .section .header .burger__box .contact__menu .contact__box .sociable__box .socible__img:hover {
+          .container .header .burger__box .contact__menu .contact__box .sociable__box .socible__img:hover,
+          .sections .header .burger__box .contact__menu .contact__box .sociable__box .socible__img:hover,
+          .section .header .burger__box .contact__menu .contact__box .sociable__box .socible__img:hover {
             margin-bottom: 10px;
             transform: rotate(-10deg); }
-          .container .header .burger__box .contact__menu .contact__box .sociable__box .sociable__margin, .sections .header .burger__box .contact__menu .contact__box .sociable__box .sociable__margin, .section .header .burger__box .contact__menu .contact__box .sociable__box .sociable__margin {
+          .container .header .burger__box .contact__menu .contact__box .sociable__box .sociable__margin,
+          .sections .header .burger__box .contact__menu .contact__box .sociable__box .sociable__margin,
+          .section .header .burger__box .contact__menu .contact__box .sociable__box .sociable__margin {
             margin-right: 25px; }
-        .container .header .burger__box .contact__menu .contact__box .sociable__box-active, .sections .header .burger__box .contact__menu .contact__box .sociable__box-active, .section .header .burger__box .contact__menu .contact__box .sociable__box-active {
+        .container .header .burger__box .contact__menu .contact__box .sociable__box-active,
+        .sections .header .burger__box .contact__menu .contact__box .sociable__box-active,
+        .section .header .burger__box .contact__menu .contact__box .sociable__box-active {
           animation-name: contact__box2;
           animation-duration: 0.5s;
           animation-iteration-count: 1;
@@ -326,7 +379,9 @@ html, body {
     -webkit-transform: translate3d(0, 0, 0);
     -ms-transform: translate3d(0, 0, 0);
     transform: translate3d(0, 0, 0); } }
-      .container .header .burger__box .contact__menu::before, .sections .header .burger__box .contact__menu::before, .section .header .burger__box .contact__menu::before {
+      .container .header .burger__box .contact__menu::before,
+      .sections .header .burger__box .contact__menu::before,
+      .section .header .burger__box .contact__menu::before {
         top: 0;
         right: 0;
         bottom: 0;
@@ -335,7 +390,7 @@ html, body {
         transition: 0.3s;
         width: 100%;
         height: 100%;
-        content: '';
+        content: "";
         position: absolute;
         -webkit-transform-origin: top right;
         -ms-transform-origin: top right;
@@ -343,23 +398,33 @@ html, body {
         -webkit-transform: scaleX(0.3826) scaleY(0.27);
         -ms-transform: scaleX(0.3826) scaleY(0.27);
         transform: scaleX(0.3826) scaleY(0.27); }
-    .container .header .burger__box .contact__menu-active, .sections .header .burger__box .contact__menu-active, .section .header .burger__box .contact__menu-active {
+    .container .header .burger__box .contact__menu-active,
+    .sections .header .burger__box .contact__menu-active,
+    .section .header .burger__box .contact__menu-active {
       width: 400px;
       height: 500px;
       right: 50px;
       top: 10px; }
-      .container .header .burger__box .contact__menu-active .contact__box, .sections .header .burger__box .contact__menu-active .contact__box, .section .header .burger__box .contact__menu-active .contact__box {
+      .container .header .burger__box .contact__menu-active .contact__box,
+      .sections .header .burger__box .contact__menu-active .contact__box,
+      .section .header .burger__box .contact__menu-active .contact__box {
         opacity: 1; }
-      .container .header .burger__box .contact__menu-active::before, .sections .header .burger__box .contact__menu-active::before, .section .header .burger__box .contact__menu-active::before {
+      .container .header .burger__box .contact__menu-active::before,
+      .sections .header .burger__box .contact__menu-active::before,
+      .section .header .burger__box .contact__menu-active::before {
         transform: scaleX(1) scaleY(1.05);
         -ms-transform: scaleX(1) scaleY(1.05);
         -webkit-transform: scaleX(1) scaleY(1.05);
         box-shadow: 0px 4px 5px rgba(64, 26, 113, 0.25);
         background-color: #fff; }
-    .container .header .burger__box .contact__menu-non, .sections .header .burger__box .contact__menu-non, .section .header .burger__box .contact__menu-non {
+    .container .header .burger__box .contact__menu-non,
+    .sections .header .burger__box .contact__menu-non,
+    .section .header .burger__box .contact__menu-non {
       width: 350px;
       height: 500px; }
-      .container .header .burger__box .contact__menu-non::before, .sections .header .burger__box .contact__menu-non::before, .section .header .burger__box .contact__menu-non::before {
+      .container .header .burger__box .contact__menu-non::before,
+      .sections .header .burger__box .contact__menu-non::before,
+      .section .header .burger__box .contact__menu-non::before {
         -webkit-transform: scaleX(0.3826) scaleY(0.27);
         -ms-transform: scaleX(0.3826) scaleY(0.27);
         transform: scaleX(0.3826) scaleY(0.27);
@@ -377,7 +442,9 @@ html, body {
     -ms-transform: scaleX(0) scaleY(0);
     transform: scaleX(0) scaleY(0);
     opacity: 0; } }
-    .container .header .burger__box .burger, .sections .header .burger__box .burger, .section .header .burger__box .burger {
+    .container .header .burger__box .burger,
+    .sections .header .burger__box .burger,
+    .section .header .burger__box .burger {
       width: 2.78em;
       height: 2.09em;
       background: none;
@@ -387,7 +454,7 @@ html, body {
       display: -ms-flexbox;
       display: inline-flex;
       margin-top: 0.699em;
-      color: var(--text-color, #4831D4);
+      color: var(--text-color, #4831d4);
       display: flex;
       flex-direction: column;
       align-items: flex-end;
@@ -395,8 +462,10 @@ html, body {
       top: 17px;
       cursor: pointer;
       z-index: 999; }
-      .container .header .burger__box .burger::before, .sections .header .burger__box .burger::before, .section .header .burger__box .burger::before {
-        content: '';
+      .container .header .burger__box .burger::before,
+      .sections .header .burger__box .burger::before,
+      .section .header .burger__box .burger::before {
+        content: "";
         width: 60%;
         height: 2px;
         position: absolute;
@@ -405,10 +474,12 @@ html, body {
         -webkit-transform: rotate(0deg);
         -ms-transform: rotate(0deg);
         transform: rotate(0deg);
-        background-color: var(--text-color, #4831D4);
+        background-color: var(--text-color, #4831d4);
         top: 12px; }
-      .container .header .burger__box .burger::after, .sections .header .burger__box .burger::after, .section .header .burger__box .burger::after {
-        content: '';
+      .container .header .burger__box .burger::after,
+      .sections .header .burger__box .burger::after,
+      .section .header .burger__box .burger::after {
+        content: "";
         width: 100%;
         height: 2px;
         position: absolute;
@@ -417,28 +488,34 @@ html, body {
         -webkit-transform: rotate(0deg);
         -ms-transform: rotate(0deg);
         transform: rotate(0deg);
-        background-color: var(--text-color, #4831D4); }
-    .container .header .burger__box .burger__active, .sections .header .burger__box .burger__active, .section .header .burger__box .burger__active {
+        background-color: var(--text-color, #4831d4); }
+    .container .header .burger__box .burger__active,
+    .sections .header .burger__box .burger__active,
+    .section .header .burger__box .burger__active {
       -webkit-transform: scale(0.9);
       -ms-transform: scale(0.9);
       transform: scale(0.9); }
-      .container .header .burger__box .burger__active::before, .sections .header .burger__box .burger__active::before, .section .header .burger__box .burger__active::before {
+      .container .header .burger__box .burger__active::before,
+      .sections .header .burger__box .burger__active::before,
+      .section .header .burger__box .burger__active::before {
         top: 0;
         width: 100%;
         -webkit-transform: rotate(-45deg);
         -ms-transform: rotate(-45deg);
         transform: rotate(-45deg);
-        background-color: #4831D4; }
-      .container .header .burger__box .burger__active::after, .sections .header .burger__box .burger__active::after, .section .header .burger__box .burger__active::after {
+        background-color: #4831d4; }
+      .container .header .burger__box .burger__active::after,
+      .sections .header .burger__box .burger__active::after,
+      .section .header .burger__box .burger__active::after {
         -webkit-transform: rotate(45deg);
         -ms-transform: rotate(45deg);
         transform: rotate(45deg);
-        background-color: #4831D4; }
+        background-color: #4831d4; }
 
 .section0 {
   width: 100%;
   min-height: 100vh;
-  background: #F5F4FC;
+  background: #f5f4fc;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -454,7 +531,7 @@ html, body {
     align-items: center;
     justify-content: center; }
     .section0 .section__box .section__titel {
-      font-family: 'SF UI Text';
+      font-family: "SF UI Text";
       font-style: normal;
       font-weight: 700;
       font-size: 48px;
@@ -463,7 +540,7 @@ html, body {
       position: relative;
       top: 10px; }
   .section0 .section__description {
-    font-family: 'SF UI Text';
+    font-family: "SF UI Text";
     font-style: normal;
     font-weight: 400;
     font-size: 24px;
@@ -474,19 +551,47 @@ html, body {
     width: 100%;
     min-height: auto;
     margin-top: 100px; }
+    .section0 .section__container .container__buttons {
+      width: fit-content;
+      height: fit-content;
+      padding: 12px 20px;
+      display: flex;
+      gap: 20px;
+      box-shadow: -10px -10px 20px white, -5px -5px 10px 0 rgba(255, 255, 255, 0.5), 5px 5px 10px rgba(170, 170, 204, 0.25), 10px 10px 20px rgba(170, 170, 204, 0.5); }
+      .section0 .section__container .container__buttons-button {
+        width: fit-content;
+        height: 50px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        background-color: #f5f5fa;
+        font-family: "SF UI Text";
+        font-style: normal;
+        font-weight: 500;
+        font-size: 20px;
+        padding: 12px 20px;
+        color: #333;
+        cursor: pointer;
+        border: none;
+        outline: none; }
+      .section0 .section__container .container__buttons-active {
+        background: #7158e2;
+        background: linear-gradient(180deg, #7158e2 0%, #cd84f1 100%);
+        box-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
+        color: white; }
     .section0 .section__container .section__button {
       width: 155px;
       height: 46px;
       background: #474747;
       border-radius: 2px;
       border: none;
-      font-family: 'SF UI Text';
+      font-family: "SF UI Text";
       font-style: normal;
       font-weight: 600;
       font-size: 18px;
       line-height: 21px;
       letter-spacing: 0.055em;
-      color: #FFFFFF;
+      color: #ffffff;
       cursor: pointer;
       overflow: hidden;
       background-image: url(../img/buttons__elips.svg);
@@ -496,14 +601,6 @@ html, body {
       background-position: 300px;
       transition: all 500ms cubic-bezier(0.5, 0.25, 0.5, 0.75);
       transition-timing-function: cubic-bezier(0.5, 0.25, 0.5, 0.75); }
-    .section0 .section__container .section__button:hover {
-      background-image: url(../img/buttons__elips.svg);
-      background-size: 30px 30px;
-      background-position: right top;
-      transition: all 500ms cubic-bezier(0.5, 0.25, 0.5, 0.75);
-      transition-timing-function: cubic-bezier(0.5, 0.25, 0.5, 0.75); }
-    .section0 .section__container .section__button-margin {
-      margin-left: 40px; }
   .section0 .container__main {
     width: 100%;
     min-height: 10vh;
@@ -512,51 +609,129 @@ html, body {
     display: flex;
     justify-content: space-between;
     margin-bottom: 140px; }
-    .section0 .container__main .container__card {
-      width: 394px;
-      height: 326px;
-      background: #F9F8FD;
+    .section0 .container__main .skeleton-loader {
+      width: 100%;
+      flex-wrap: wrap;
+      display: flex;
+      justify-content: space-between; }
+    .section0 .container__main .skeleton-card {
+      width: 370px;
+      height: 220px;
       margin-top: 35px;
-      margin-bottom: 45px; }
-      .section0 .container__main .container__card .card__top {
+      margin-bottom: 45px;
+      border-radius: 4px;
+      background: linear-gradient(90deg, #e0e0e0 25%, #f0f0f0 50%, #e0e0e0 75%);
+      background-size: 200% 100%;
+      animation: shimmer 3.5s infinite; }
+@keyframes shimmer {
+  0% {
+    background-position: 200% 0; }
+  100% {
+    background-position: -200% 0; } }
+    .section0 .container__main .card__container {
+      width: 100%;
+      flex-wrap: wrap;
+      display: flex;
+      justify-content: space-between;
+      gap: 20px; }
+    .section0 .container__main .container__card {
+      width: 370px;
+      height: fit-content;
+      background: #f9f8fd;
+      margin-top: 35px;
+      margin-bottom: 45px;
+      box-shadow: 10px 10px 20px rgba(170, 170, 204, 0.5); }
+      .section0 .container__main .container__card-img {
         width: 100%;
-        height: 63%;
-        display: flex;
-        align-items: center;
-        justify-content: center;
-        cursor: pointer; }
-        .section0 .container__main .container__card .card__top .card__img {
-          -webkit-user-drag: none;
-          -webkit-app-region: no-drag;
-          cursor: default; }
-      .section0 .container__main .container__card .card__bottom {
+        height: 220px;
+        background-size: cover;
+        padding: 10px; }
+        .section0 .container__main .container__card-img .teg-box {
+          width: 100%;
+          height: auto;
+          gap: 10px;
+          display: flex;
+          flex-wrap: wrap; }
+        .section0 .container__main .container__card-img .button__teg {
+          width: fit-content;
+          height: 24px;
+          background-color: white;
+          padding: 5px 15px;
+          box-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
+          display: flex;
+          align-items: center;
+          justify-content: center;
+          font-family: "SF UI Text";
+          font-weight: 500;
+          font-size: 12px;
+          color: #474747;
+          border: 2px solid rgba(218, 55, 218, 0.504);
+          backdrop-filter: blur(10px);
+          border-radius: 20px; }
+      .section0 .container__main .container__card-text {
         width: 100%;
-        height: 37%;
-        background: #FFFFFF;
-        padding-left: 20px;
-        padding-top: 20px;
-        padding-right: 20px; }
-        .section0 .container__main .container__card .card__bottom .card__titel {
-          font-family: 'SF UI Text';
+        height: auto;
+        padding: 20px; }
+        .section0 .container__main .container__card-text .card__title {
+          font-family: "SF UI Text";
           font-style: normal;
           font-weight: 700;
-          font-size: 20px;
-          line-height: 24px;
-          color: #474747; }
-        .section0 .container__main .container__card .card__bottom .card__description {
-          font-family: 'SF UI Text';
-          font-style: normal;
-          font-weight: 400;
-          font-size: 20px;
-          line-height: 24px;
-          color: #4831D4;
-          margin-top: 10px;
-          cursor: pointer; }
+          font-size: 20px; }
+        .section0 .container__main .container__card-text .buttons__container {
+          width: 100%;
+          display: flex;
+          justify-content: space-between;
+          margin-top: 20px;
+          gap: 20px; }
+          .section0 .container__main .container__card-text .buttons__container-link {
+            width: 50%;
+            position: relative;
+            height: 50px; }
+          .section0 .container__main .container__card-text .buttons__container-button {
+            position: relative;
+            width: 100%;
+            height: 50px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-family: "SF UI Text";
+            font-style: normal;
+            color: white;
+            border: none;
+            outline: none;
+            cursor: pointer;
+            font-weight: 500;
+            backdrop-filter: blur(10px);
+            transition: 0.5s;
+            overflow: hidden;
+            z-index: 0;
+            background: radial-gradient(circle, #4834d4 0%, #686de0 100%); }
+            .section0 .container__main .container__card-text .buttons__container-button:before {
+              content: "";
+              position: absolute;
+              top: 0;
+              left: 0;
+              width: 100%;
+              height: 100%;
+              background: radial-gradient(circle, #7158e2 0%, #cd84f1 100%);
+              transition: opacity 0.5s ease;
+              opacity: 0;
+              z-index: -1; }
+            .section0 .container__main .container__card-text .buttons__container-button:hover::before {
+              opacity: 1; }
+            .section0 .container__main .container__card-text .buttons__container-button:hover {
+              box-shadow: 0 4px 20px rgba(195, 62, 239, 0.35); }
+          .section0 .container__main .container__card-text .buttons__container-blue {
+            box-shadow: 0 4px 20px rgba(0, 11, 255, 0.35);
+            background: radial-gradient(circle, #4834d4 0%, #686de0 100%); }
+          .section0 .container__main .container__card-text .buttons__container-red {
+            box-shadow: 0 4px 20px rgba(255, 127, 80, 0.5);
+            background: radial-gradient(circle, #ffa502 0%, #ff6348 100%); }
 
 .footer {
   width: 100%;
   height: 100vh;
-  background: #3D155F;
+  background: #3d155f;
   padding-left: 100px;
   padding-right: 100px; }
   .footer .section__top {
@@ -565,13 +740,13 @@ html, body {
     padding-top: 12%; }
     .footer .section__top .section__titel {
       text-transform: uppercase;
-      font-family: 'SF UI Text';
+      font-family: "SF UI Text";
       font-style: normal;
       font-weight: 600;
       font-size: 24px;
       line-height: 29px;
       letter-spacing: 0.1em;
-      color: #FFFFFF; }
+      color: #ffffff; }
     .footer .section__top .section__box {
       display: flex;
       margin-top: 20px; }
@@ -582,13 +757,13 @@ html, body {
         flex-direction: column; }
         .footer .section__top .section__box .box__container .container__text {
           width: auto;
-          font-family: 'SF UI Text';
+          font-family: "SF UI Text";
           font-style: normal;
           font-weight: 600;
           font-size: 20px;
           line-height: 29px;
           letter-spacing: 0.04em;
-          color: #CCF381;
+          color: #ccf381;
           margin-top: 20px;
           -webkit-text-decoration: none;
           text-decoration: none;
@@ -607,7 +782,7 @@ html, body {
             transition: 0.3s;
             width: 30px;
             height: 100%;
-            content: '';
+            content: "";
             position: absolute;
             left: 100%;
             -webkit-transform-origin: right;
@@ -624,7 +799,7 @@ html, body {
           transition: 0.3s;
           width: 30px;
           height: 100%;
-          content: '';
+          content: "";
           position: absolute;
           -webkit-transform-origin: right;
           -ms-transform-origin: right;
@@ -639,7 +814,7 @@ html, body {
     .footer .section__bottom .section__line {
       width: 100%;
       height: 3px;
-      background: #CCF381;
+      background: #ccf381;
       opacity: 0.8; }
     .footer .section__bottom .section__container {
       width: 100%;
@@ -649,13 +824,13 @@ html, body {
       justify-content: space-between;
       margin-top: 35px; }
       .footer .section__bottom .section__container .section__deffents-text {
-        font-family: 'SF UI Text';
+        font-family: "SF UI Text";
         font-style: normal;
         font-weight: 600;
         font-size: 20px;
         line-height: 29px;
         letter-spacing: 0.04em;
-        color: #CCF381; }
+        color: #ccf381; }
       .footer .section__bottom .section__container .sociable__box {
         display: flex;
         align-items: center; }
@@ -693,7 +868,9 @@ html, body {
     -ms-transform: translate3d(0, 0, 0);
     transform: translate3d(0, 0, 0); } }
 @media screen and (max-width: 1250px) {
-  .container .header, .sections .header, .section .header {
+  .container .header,
+  .sections .header,
+  .section .header {
     width: 100%;
     height: 10vh;
     padding-left: 30px;
@@ -703,21 +880,29 @@ html, body {
     top: 40%;
     position: absolute;
     top: -1%; }
-    .container .header .header__logo, .sections .header .header__logo, .section .header .header__logo {
+    .container .header .header__logo,
+    .sections .header .header__logo,
+    .section .header .header__logo {
       font-size: 36px;
       line-height: 4px;
       user-select: none;
       cursor: pointer; }
-      .container .header .header__logo .header__img, .sections .header .header__logo .header__img, .section .header .header__logo .header__img {
+      .container .header .header__logo .header__img,
+      .sections .header .header__logo .header__img,
+      .section .header .header__logo .header__img {
         width: 35px;
         height: 35px;
         position: relative;
         top: 15px;
         margin-left: -3px;
         margin-right: -3px; }
-      .container .header .header__logo .header__color, .sections .header .header__logo .header__color, .section .header .header__logo .header__color {
+      .container .header .header__logo .header__color,
+      .sections .header .header__logo .header__color,
+      .section .header .header__logo .header__color {
         transition: 1s; }
-    .container .header .first__logo-active, .sections .header .first__logo-active, .section .header .first__logo-active {
+    .container .header .first__logo-active,
+    .sections .header .first__logo-active,
+    .section .header .first__logo-active {
       animation-duration: 1s; }
   @keyframes first__logo {
     0% {
@@ -726,7 +911,9 @@ html, body {
     100% {
       position: relative;
       left: 0px; } }
-    .container .header .last__logo-active, .sections .header .last__logo-active, .section .header .last__logo-active {
+    .container .header .last__logo-active,
+    .sections .header .last__logo-active,
+    .section .header .last__logo-active {
       animation-duration: 1s; }
   @keyframes last__logo {
     0% {
@@ -735,22 +922,28 @@ html, body {
     100% {
       position: relative;
       right: 0px; } }
-    .container .header .burger__box .contact__menu, .sections .header .burger__box .contact__menu, .section .header .burger__box .contact__menu {
+    .container .header .burger__box .contact__menu,
+    .sections .header .burger__box .contact__menu,
+    .section .header .burger__box .contact__menu {
       position: absolute;
       -webkit-transition: opacity 0.4s, box-shadow 0.4s;
       transition: opacity 0.4s, box-shadow 0.4s;
       z-index: 998; }
-      .container .header .burger__box .contact__menu .contact__box, .sections .header .burger__box .contact__menu .contact__box, .section .header .burger__box .contact__menu .contact__box {
+      .container .header .burger__box .contact__menu .contact__box,
+      .sections .header .burger__box .contact__menu .contact__box,
+      .section .header .burger__box .contact__menu .contact__box {
         width: 100%;
         height: 100%;
         padding-top: 12%;
         padding-left: 55px; }
-        .container .header .burger__box .contact__menu .contact__box .contact__box1 .contact__text, .sections .header .burger__box .contact__menu .contact__box .contact__box1 .contact__text, .section .header .burger__box .contact__menu .contact__box .contact__box1 .contact__text {
+        .container .header .burger__box .contact__menu .contact__box .contact__box1 .contact__text,
+        .sections .header .burger__box .contact__menu .contact__box .contact__box1 .contact__text,
+        .section .header .burger__box .contact__menu .contact__box .contact__box1 .contact__text {
           z-index: 9999;
           font-size: 20px;
           line-height: 29px;
           letter-spacing: 0.04em;
-          color: #4831D4;
+          color: #4831d4;
           cursor: pointer;
           margin-top: 20px;
           -webkit-text-decoration: none;
@@ -761,7 +954,9 @@ html, body {
           -webkit-transition-property: opacity, color, background-color, transform, border;
           transition-property: opacity, color, background-color, transform, border;
           position: relative; }
-          .container .header .burger__box .contact__menu .contact__box .contact__box1 .contact__text::after, .sections .header .burger__box .contact__menu .contact__box .contact__box1 .contact__text::after, .section .header .burger__box .contact__menu .contact__box .contact__box1 .contact__text::after {
+          .container .header .burger__box .contact__menu .contact__box .contact__box1 .contact__text::after,
+          .sections .header .burger__box .contact__menu .contact__box .contact__box1 .contact__text::after,
+          .section .header .burger__box .contact__menu .contact__box .contact__box1 .contact__text::after {
             top: 0;
             right: 0;
             bottom: 0;
@@ -770,10 +965,12 @@ html, body {
             transition: 0.3s;
             width: 30px;
             height: 100%;
-            content: '';
+            content: "";
             position: absolute;
             left: 100%; }
-        .container .header .burger__box .contact__menu .contact__box .contact__box1 .contact__text:hover:after, .sections .header .burger__box .contact__menu .contact__box .contact__box1 .contact__text:hover:after, .section .header .burger__box .contact__menu .contact__box .contact__box1 .contact__text:hover:after {
+        .container .header .burger__box .contact__menu .contact__box .contact__box1 .contact__text:hover:after,
+        .sections .header .burger__box .contact__menu .contact__box .contact__box1 .contact__text:hover:after,
+        .section .header .burger__box .contact__menu .contact__box .contact__box1 .contact__text:hover:after {
           top: 0;
           right: 0;
           bottom: 0;
@@ -782,14 +979,16 @@ html, body {
           transition: 0.3s;
           width: 30px;
           height: 100%;
-          content: '';
+          content: "";
           position: absolute;
           -webkit-transform-origin: right;
           -ms-transform-origin: right;
           transform-origin: right;
           background-color: rgba(72, 49, 212, 0.1);
           opacity: 1; }
-        .container .header .burger__box .contact__menu .contact__box .contact__box-active, .sections .header .burger__box .contact__menu .contact__box .contact__box-active, .section .header .burger__box .contact__menu .contact__box .contact__box-active {
+        .container .header .burger__box .contact__menu .contact__box .contact__box-active,
+        .sections .header .burger__box .contact__menu .contact__box .contact__box-active,
+        .section .header .burger__box .contact__menu .contact__box .contact__box-active {
           animation-duration: 0.5s; }
   @keyframes contact__box {
     0% {
@@ -802,22 +1001,28 @@ html, body {
       -webkit-transform: translate3d(0, 0, 0);
       -ms-transform: translate3d(0, 0, 0);
       transform: translate3d(0, 0, 0); } }
-        .container .header .burger__box .contact__menu .contact__box .contact__box2, .sections .header .burger__box .contact__menu .contact__box .contact__box2, .section .header .burger__box .contact__menu .contact__box .contact__box2 {
+        .container .header .burger__box .contact__menu .contact__box .contact__box2,
+        .sections .header .burger__box .contact__menu .contact__box .contact__box2,
+        .section .header .burger__box .contact__menu .contact__box .contact__box2 {
           opacity: 0; }
-          .container .header .burger__box .contact__menu .contact__box .contact__box2 .contact__text2, .sections .header .burger__box .contact__menu .contact__box .contact__box2 .contact__text2, .section .header .burger__box .contact__menu .contact__box .contact__box2 .contact__text2 {
+          .container .header .burger__box .contact__menu .contact__box .contact__box2 .contact__text2,
+          .sections .header .burger__box .contact__menu .contact__box .contact__box2 .contact__text2,
+          .section .header .burger__box .contact__menu .contact__box .contact__box2 .contact__text2 {
             font-size: 20px;
             line-height: 29px;
             cursor: pointer;
             margin-top: 70px; }
-          .container .header .burger__box .contact__menu .contact__box .contact__box2 .contact__text, .sections .header .burger__box .contact__menu .contact__box .contact__box2 .contact__text, .section .header .burger__box .contact__menu .contact__box .contact__box2 .contact__text {
+          .container .header .burger__box .contact__menu .contact__box .contact__box2 .contact__text,
+          .sections .header .burger__box .contact__menu .contact__box .contact__box2 .contact__text,
+          .section .header .burger__box .contact__menu .contact__box .contact__box2 .contact__text {
             z-index: 9999;
-            font-family: 'SF UI Text';
+            font-family: "SF UI Text";
             font-style: normal;
             font-weight: 500;
             font-size: 20px;
             line-height: 29px;
             letter-spacing: 0.04em;
-            color: #4831D4;
+            color: #4831d4;
             cursor: pointer;
             -webkit-text-decoration: none;
             text-decoration: none;
@@ -827,7 +1032,9 @@ html, body {
             -webkit-transition-property: opacity, color, background-color, transform, border;
             transition-property: opacity, color, background-color, transform, border;
             position: relative; }
-            .container .header .burger__box .contact__menu .contact__box .contact__box2 .contact__text::after, .sections .header .burger__box .contact__menu .contact__box .contact__box2 .contact__text::after, .section .header .burger__box .contact__menu .contact__box .contact__box2 .contact__text::after {
+            .container .header .burger__box .contact__menu .contact__box .contact__box2 .contact__text::after,
+            .sections .header .burger__box .contact__menu .contact__box .contact__box2 .contact__text::after,
+            .section .header .burger__box .contact__menu .contact__box .contact__box2 .contact__text::after {
               top: 0;
               right: 0;
               bottom: 0;
@@ -836,7 +1043,7 @@ html, body {
               transition: 0.3s;
               width: 30px;
               height: 100%;
-              content: '';
+              content: "";
               position: absolute;
               left: 100%;
               -webkit-transform-origin: right;
@@ -844,7 +1051,9 @@ html, body {
               transform-origin: right;
               background-color: rgba(255, 255, 255, 0.3);
               opacity: 0; }
-          .container .header .burger__box .contact__menu .contact__box .contact__box2 .contact__text:hover:after, .sections .header .burger__box .contact__menu .contact__box .contact__box2 .contact__text:hover:after, .section .header .burger__box .contact__menu .contact__box .contact__box2 .contact__text:hover:after {
+          .container .header .burger__box .contact__menu .contact__box .contact__box2 .contact__text:hover:after,
+          .sections .header .burger__box .contact__menu .contact__box .contact__box2 .contact__text:hover:after,
+          .section .header .burger__box .contact__menu .contact__box .contact__box2 .contact__text:hover:after {
             top: 0;
             right: 0;
             bottom: 0;
@@ -853,20 +1062,26 @@ html, body {
             transition: 0.3s;
             width: 30px;
             height: 100%;
-            content: '';
+            content: "";
             position: absolute;
             -webkit-transform-origin: right;
             -ms-transform-origin: right;
             transform-origin: right;
             background-color: rgba(72, 49, 212, 0.1);
             opacity: 1; }
-          .container .header .burger__box .contact__menu .contact__box .contact__box2 .contact__margin, .sections .header .burger__box .contact__menu .contact__box .contact__box2 .contact__margin, .section .header .burger__box .contact__menu .contact__box .contact__box2 .contact__margin {
+          .container .header .burger__box .contact__menu .contact__box .contact__box2 .contact__margin,
+          .sections .header .burger__box .contact__menu .contact__box .contact__box2 .contact__margin,
+          .section .header .burger__box .contact__menu .contact__box .contact__box2 .contact__margin {
             position: relative;
             top: 20px; }
-          .container .header .burger__box .contact__menu .contact__box .contact__box2 .contact__margin2, .sections .header .burger__box .contact__menu .contact__box .contact__box2 .contact__margin2, .section .header .burger__box .contact__menu .contact__box .contact__box2 .contact__margin2 {
+          .container .header .burger__box .contact__menu .contact__box .contact__box2 .contact__margin2,
+          .sections .header .burger__box .contact__menu .contact__box .contact__box2 .contact__margin2,
+          .section .header .burger__box .contact__menu .contact__box .contact__box2 .contact__margin2 {
             position: relative;
             top: 40px; }
-        .container .header .burger__box .contact__menu .contact__box .contact2__box-active, .sections .header .burger__box .contact__menu .contact__box .contact2__box-active, .section .header .burger__box .contact__menu .contact__box .contact2__box-active {
+        .container .header .burger__box .contact__menu .contact__box .contact2__box-active,
+        .sections .header .burger__box .contact__menu .contact__box .contact2__box-active,
+        .section .header .burger__box .contact__menu .contact__box .contact2__box-active {
           animation-name: contact__box2;
           animation-duration: 0.5s;
           animation-iteration-count: 1;
@@ -882,23 +1097,33 @@ html, body {
       -webkit-transform: translate3d(0, 0, 0);
       -ms-transform: translate3d(0, 0, 0);
       transform: translate3d(0, 0, 0); } }
-        .container .header .burger__box .contact__menu .contact__box .sociable__box, .sections .header .burger__box .contact__menu .contact__box .sociable__box, .section .header .burger__box .contact__menu .contact__box .sociable__box {
+        .container .header .burger__box .contact__menu .contact__box .sociable__box,
+        .sections .header .burger__box .contact__menu .contact__box .sociable__box,
+        .section .header .burger__box .contact__menu .contact__box .sociable__box {
           display: flex;
           height: 40px;
           align-items: center;
           opacity: 0; }
-          .container .header .burger__box .contact__menu .contact__box .sociable__box .socible__img, .sections .header .burger__box .contact__menu .contact__box .sociable__box .socible__img, .section .header .burger__box .contact__menu .contact__box .sociable__box .socible__img {
+          .container .header .burger__box .contact__menu .contact__box .sociable__box .socible__img,
+          .sections .header .burger__box .contact__menu .contact__box .sociable__box .socible__img,
+          .section .header .burger__box .contact__menu .contact__box .sociable__box .socible__img {
             width: 35px;
             height: 35px;
             transition: 0.1s;
             position: relative;
             top: 110px; }
-          .container .header .burger__box .contact__menu .contact__box .sociable__box .socible__img:hover, .sections .header .burger__box .contact__menu .contact__box .sociable__box .socible__img:hover, .section .header .burger__box .contact__menu .contact__box .sociable__box .socible__img:hover {
+          .container .header .burger__box .contact__menu .contact__box .sociable__box .socible__img:hover,
+          .sections .header .burger__box .contact__menu .contact__box .sociable__box .socible__img:hover,
+          .section .header .burger__box .contact__menu .contact__box .sociable__box .socible__img:hover {
             margin-bottom: 10px;
             transform: rotate(-10deg); }
-          .container .header .burger__box .contact__menu .contact__box .sociable__box .sociable__margin, .sections .header .burger__box .contact__menu .contact__box .sociable__box .sociable__margin, .section .header .burger__box .contact__menu .contact__box .sociable__box .sociable__margin {
+          .container .header .burger__box .contact__menu .contact__box .sociable__box .sociable__margin,
+          .sections .header .burger__box .contact__menu .contact__box .sociable__box .sociable__margin,
+          .section .header .burger__box .contact__menu .contact__box .sociable__box .sociable__margin {
             margin-right: 25px; }
-        .container .header .burger__box .contact__menu .contact__box .sociable__box-active, .sections .header .burger__box .contact__menu .contact__box .sociable__box-active, .section .header .burger__box .contact__menu .contact__box .sociable__box-active {
+        .container .header .burger__box .contact__menu .contact__box .sociable__box-active,
+        .sections .header .burger__box .contact__menu .contact__box .sociable__box-active,
+        .section .header .burger__box .contact__menu .contact__box .sociable__box-active {
           animation-name: contact__box2;
           animation-duration: 0.5s;
           animation-iteration-count: 1;
@@ -914,7 +1139,9 @@ html, body {
       -webkit-transform: translate3d(0, 0, 0);
       -ms-transform: translate3d(0, 0, 0);
       transform: translate3d(0, 0, 0); } }
-      .container .header .burger__box .contact__menu::before, .sections .header .burger__box .contact__menu::before, .section .header .burger__box .contact__menu::before {
+      .container .header .burger__box .contact__menu::before,
+      .sections .header .burger__box .contact__menu::before,
+      .section .header .burger__box .contact__menu::before {
         top: 0;
         right: 0;
         bottom: 0;
@@ -923,7 +1150,7 @@ html, body {
         transition: 0.3s;
         width: 100%;
         height: 100%;
-        content: '';
+        content: "";
         position: absolute;
         -webkit-transform-origin: top right;
         -ms-transform-origin: top right;
@@ -931,23 +1158,33 @@ html, body {
         -webkit-transform: scaleX(0.3826) scaleY(0.27);
         -ms-transform: scaleX(0.3826) scaleY(0.27);
         transform: scaleX(0.3826) scaleY(0.27); }
-    .container .header .burger__box .contact__menu-active, .sections .header .burger__box .contact__menu-active, .section .header .burger__box .contact__menu-active {
+    .container .header .burger__box .contact__menu-active,
+    .sections .header .burger__box .contact__menu-active,
+    .section .header .burger__box .contact__menu-active {
       width: 350px;
       height: 500px;
       right: 40px;
       top: 5px; }
-      .container .header .burger__box .contact__menu-active .contact__box, .sections .header .burger__box .contact__menu-active .contact__box, .section .header .burger__box .contact__menu-active .contact__box {
+      .container .header .burger__box .contact__menu-active .contact__box,
+      .sections .header .burger__box .contact__menu-active .contact__box,
+      .section .header .burger__box .contact__menu-active .contact__box {
         opacity: 1; }
-      .container .header .burger__box .contact__menu-active::before, .sections .header .burger__box .contact__menu-active::before, .section .header .burger__box .contact__menu-active::before {
+      .container .header .burger__box .contact__menu-active::before,
+      .sections .header .burger__box .contact__menu-active::before,
+      .section .header .burger__box .contact__menu-active::before {
         transform: scaleX(1) scaleY(1.05);
         -ms-transform: scaleX(1) scaleY(1.05);
         -webkit-transform: scaleX(1) scaleY(1.05);
         box-shadow: 0px 4px 5px rgba(64, 26, 113, 0.25);
         background-color: #fff; }
-    .container .header .burger__box .contact__menu-non, .sections .header .burger__box .contact__menu-non, .section .header .burger__box .contact__menu-non {
+    .container .header .burger__box .contact__menu-non,
+    .sections .header .burger__box .contact__menu-non,
+    .section .header .burger__box .contact__menu-non {
       width: 350px;
       height: 500px; }
-      .container .header .burger__box .contact__menu-non::before, .sections .header .burger__box .contact__menu-non::before, .section .header .burger__box .contact__menu-non::before {
+      .container .header .burger__box .contact__menu-non::before,
+      .sections .header .burger__box .contact__menu-non::before,
+      .section .header .burger__box .contact__menu-non::before {
         -webkit-transform: scaleX(0.3826) scaleY(0.27);
         -ms-transform: scaleX(0.3826) scaleY(0.27);
         transform: scaleX(0.3826) scaleY(0.27);
@@ -965,7 +1202,9 @@ html, body {
       -ms-transform: scaleX(0) scaleY(0);
       transform: scaleX(0) scaleY(0);
       opacity: 0; } }
-    .container .header .burger__box .burger, .sections .header .burger__box .burger, .section .header .burger__box .burger {
+    .container .header .burger__box .burger,
+    .sections .header .burger__box .burger,
+    .section .header .burger__box .burger {
       width: 2.78em;
       height: 2.09em;
       background: none;
@@ -974,13 +1213,17 @@ html, body {
       top: 17px;
       cursor: pointer;
       z-index: 999; }
-      .container .header .burger__box .burger::before, .sections .header .burger__box .burger::before, .section .header .burger__box .burger::before {
-        content: '';
+      .container .header .burger__box .burger::before,
+      .sections .header .burger__box .burger::before,
+      .section .header .burger__box .burger::before {
+        content: "";
         width: 60%;
         height: 2px;
         top: 12px; }
-      .container .header .burger__box .burger::after, .sections .header .burger__box .burger::after, .section .header .burger__box .burger::after {
-        content: '';
+      .container .header .burger__box .burger::after,
+      .sections .header .burger__box .burger::after,
+      .section .header .burger__box .burger::after {
+        content: "";
         width: 100%;
         height: 2px;
         position: absolute;
@@ -989,13 +1232,17 @@ html, body {
         -webkit-transform: rotate(0deg);
         -ms-transform: rotate(0deg);
         transform: rotate(0deg); }
-    .container .header .burger__box .burger__active::before, .sections .header .burger__box .burger__active::before, .section .header .burger__box .burger__active::before {
+    .container .header .burger__box .burger__active::before,
+    .sections .header .burger__box .burger__active::before,
+    .section .header .burger__box .burger__active::before {
       top: 0;
       width: 100%;
       -webkit-transform: rotate(-45deg);
       -ms-transform: rotate(-45deg);
       transform: rotate(-45deg); }
-    .container .header .burger__box .burger__active::after, .sections .header .burger__box .burger__active::after, .section .header .burger__box .burger__active::after {
+    .container .header .burger__box .burger__active::after,
+    .sections .header .burger__box .burger__active::after,
+    .section .header .burger__box .burger__active::after {
       -webkit-transform: rotate(45deg);
       -ms-transform: rotate(45deg);
       transform: rotate(45deg); }
@@ -1018,7 +1265,7 @@ html, body {
           font-size: 20px;
           line-height: 29px;
           letter-spacing: 0.04em;
-          color: #CCF381;
+          color: #ccf381;
           margin-top: 20px; }
           .footer .section__top .section__box .box__container .container__text::after {
             width: 30px;
@@ -1064,7 +1311,9 @@ html, body {
       -ms-transform: translate3d(0, 0, 0);
       transform: translate3d(0, 0, 0); } } }
 @media screen and (max-width: 1140px) {
-  .container .header, .sections .header, .section .header {
+  .container .header,
+  .sections .header,
+  .section .header {
     width: 100%;
     height: 10vh;
     padding-left: 30px;
@@ -1074,23 +1323,31 @@ html, body {
     top: 40%;
     position: absolute;
     top: -1%; }
-    .container .header .header__logo, .sections .header .header__logo, .section .header .header__logo {
+    .container .header .header__logo,
+    .sections .header .header__logo,
+    .section .header .header__logo {
       font-size: 36px;
       line-height: 4px;
-      color: #4831D4;
+      color: #4831d4;
       user-select: none;
       cursor: pointer; }
-      .container .header .header__logo .header__img, .sections .header .header__logo .header__img, .section .header .header__logo .header__img {
+      .container .header .header__logo .header__img,
+      .sections .header .header__logo .header__img,
+      .section .header .header__logo .header__img {
         width: 35px;
         height: 35px;
         position: relative;
         top: 15px;
         margin-left: -3px;
         margin-right: -3px; }
-      .container .header .header__logo .header__color, .sections .header .header__logo .header__color, .section .header .header__logo .header__color {
-        fill: #4831D4;
+      .container .header .header__logo .header__color,
+      .sections .header .header__logo .header__color,
+      .section .header .header__logo .header__color {
+        fill: #4831d4;
         transition: 1s; }
-    .container .header .first__logo-active, .sections .header .first__logo-active, .section .header .first__logo-active {
+    .container .header .first__logo-active,
+    .sections .header .first__logo-active,
+    .section .header .first__logo-active {
       animation-duration: 1s; }
   @keyframes first__logo {
     0% {
@@ -1099,7 +1356,9 @@ html, body {
     100% {
       position: relative;
       left: 0px; } }
-    .container .header .last__logo-active, .sections .header .last__logo-active, .section .header .last__logo-active {
+    .container .header .last__logo-active,
+    .sections .header .last__logo-active,
+    .section .header .last__logo-active {
       animation-duration: 1s; }
   @keyframes last__logo {
     0% {
@@ -1108,22 +1367,28 @@ html, body {
     100% {
       position: relative;
       right: 0px; } }
-    .container .header .burger__box .contact__menu, .sections .header .burger__box .contact__menu, .section .header .burger__box .contact__menu {
+    .container .header .burger__box .contact__menu,
+    .sections .header .burger__box .contact__menu,
+    .section .header .burger__box .contact__menu {
       position: absolute;
       -webkit-transition: opacity 0.4s, box-shadow 0.4s;
       transition: opacity 0.4s, box-shadow 0.4s;
       z-index: 998; }
-      .container .header .burger__box .contact__menu .contact__box, .sections .header .burger__box .contact__menu .contact__box, .section .header .burger__box .contact__menu .contact__box {
+      .container .header .burger__box .contact__menu .contact__box,
+      .sections .header .burger__box .contact__menu .contact__box,
+      .section .header .burger__box .contact__menu .contact__box {
         width: 100%;
         height: 100%;
         padding-top: 12%;
         padding-left: 55px; }
-        .container .header .burger__box .contact__menu .contact__box .contact__box1 .contact__text, .sections .header .burger__box .contact__menu .contact__box .contact__box1 .contact__text, .section .header .burger__box .contact__menu .contact__box .contact__box1 .contact__text {
+        .container .header .burger__box .contact__menu .contact__box .contact__box1 .contact__text,
+        .sections .header .burger__box .contact__menu .contact__box .contact__box1 .contact__text,
+        .section .header .burger__box .contact__menu .contact__box .contact__box1 .contact__text {
           z-index: 9999;
           font-size: 20px;
           line-height: 29px;
           letter-spacing: 0.04em;
-          color: #4831D4;
+          color: #4831d4;
           cursor: pointer;
           margin-top: 20px;
           -webkit-text-decoration: none;
@@ -1134,7 +1399,9 @@ html, body {
           -webkit-transition-property: opacity, color, background-color, transform, border;
           transition-property: opacity, color, background-color, transform, border;
           position: relative; }
-          .container .header .burger__box .contact__menu .contact__box .contact__box1 .contact__text::after, .sections .header .burger__box .contact__menu .contact__box .contact__box1 .contact__text::after, .section .header .burger__box .contact__menu .contact__box .contact__box1 .contact__text::after {
+          .container .header .burger__box .contact__menu .contact__box .contact__box1 .contact__text::after,
+          .sections .header .burger__box .contact__menu .contact__box .contact__box1 .contact__text::after,
+          .section .header .burger__box .contact__menu .contact__box .contact__box1 .contact__text::after {
             top: 0;
             right: 0;
             bottom: 0;
@@ -1143,10 +1410,12 @@ html, body {
             transition: 0.3s;
             width: 30px;
             height: 100%;
-            content: '';
+            content: "";
             position: absolute;
             left: 100%; }
-        .container .header .burger__box .contact__menu .contact__box .contact__box1 .contact__text:hover:after, .sections .header .burger__box .contact__menu .contact__box .contact__box1 .contact__text:hover:after, .section .header .burger__box .contact__menu .contact__box .contact__box1 .contact__text:hover:after {
+        .container .header .burger__box .contact__menu .contact__box .contact__box1 .contact__text:hover:after,
+        .sections .header .burger__box .contact__menu .contact__box .contact__box1 .contact__text:hover:after,
+        .section .header .burger__box .contact__menu .contact__box .contact__box1 .contact__text:hover:after {
           top: 0;
           right: 0;
           bottom: 0;
@@ -1155,14 +1424,16 @@ html, body {
           transition: 0.3s;
           width: 30px;
           height: 100%;
-          content: '';
+          content: "";
           position: absolute;
           -webkit-transform-origin: right;
           -ms-transform-origin: right;
           transform-origin: right;
           background-color: rgba(72, 49, 212, 0.1);
           opacity: 1; }
-        .container .header .burger__box .contact__menu .contact__box .contact__box-active, .sections .header .burger__box .contact__menu .contact__box .contact__box-active, .section .header .burger__box .contact__menu .contact__box .contact__box-active {
+        .container .header .burger__box .contact__menu .contact__box .contact__box-active,
+        .sections .header .burger__box .contact__menu .contact__box .contact__box-active,
+        .section .header .burger__box .contact__menu .contact__box .contact__box-active {
           animation-duration: 0.5s; }
   @keyframes contact__box {
     0% {
@@ -1175,22 +1446,28 @@ html, body {
       -webkit-transform: translate3d(0, 0, 0);
       -ms-transform: translate3d(0, 0, 0);
       transform: translate3d(0, 0, 0); } }
-        .container .header .burger__box .contact__menu .contact__box .contact__box2, .sections .header .burger__box .contact__menu .contact__box .contact__box2, .section .header .burger__box .contact__menu .contact__box .contact__box2 {
+        .container .header .burger__box .contact__menu .contact__box .contact__box2,
+        .sections .header .burger__box .contact__menu .contact__box .contact__box2,
+        .section .header .burger__box .contact__menu .contact__box .contact__box2 {
           opacity: 0; }
-          .container .header .burger__box .contact__menu .contact__box .contact__box2 .contact__text2, .sections .header .burger__box .contact__menu .contact__box .contact__box2 .contact__text2, .section .header .burger__box .contact__menu .contact__box .contact__box2 .contact__text2 {
+          .container .header .burger__box .contact__menu .contact__box .contact__box2 .contact__text2,
+          .sections .header .burger__box .contact__menu .contact__box .contact__box2 .contact__text2,
+          .section .header .burger__box .contact__menu .contact__box .contact__box2 .contact__text2 {
             font-size: 20px;
             line-height: 29px;
             cursor: pointer;
             margin-top: 70px; }
-          .container .header .burger__box .contact__menu .contact__box .contact__box2 .contact__text, .sections .header .burger__box .contact__menu .contact__box .contact__box2 .contact__text, .section .header .burger__box .contact__menu .contact__box .contact__box2 .contact__text {
+          .container .header .burger__box .contact__menu .contact__box .contact__box2 .contact__text,
+          .sections .header .burger__box .contact__menu .contact__box .contact__box2 .contact__text,
+          .section .header .burger__box .contact__menu .contact__box .contact__box2 .contact__text {
             z-index: 9999;
-            font-family: 'SF UI Text';
+            font-family: "SF UI Text";
             font-style: normal;
             font-weight: 500;
             font-size: 20px;
             line-height: 29px;
             letter-spacing: 0.04em;
-            color: #4831D4;
+            color: #4831d4;
             cursor: pointer;
             -webkit-text-decoration: none;
             text-decoration: none;
@@ -1200,7 +1477,9 @@ html, body {
             -webkit-transition-property: opacity, color, background-color, transform, border;
             transition-property: opacity, color, background-color, transform, border;
             position: relative; }
-            .container .header .burger__box .contact__menu .contact__box .contact__box2 .contact__text::after, .sections .header .burger__box .contact__menu .contact__box .contact__box2 .contact__text::after, .section .header .burger__box .contact__menu .contact__box .contact__box2 .contact__text::after {
+            .container .header .burger__box .contact__menu .contact__box .contact__box2 .contact__text::after,
+            .sections .header .burger__box .contact__menu .contact__box .contact__box2 .contact__text::after,
+            .section .header .burger__box .contact__menu .contact__box .contact__box2 .contact__text::after {
               top: 0;
               right: 0;
               bottom: 0;
@@ -1209,7 +1488,7 @@ html, body {
               transition: 0.3s;
               width: 30px;
               height: 100%;
-              content: '';
+              content: "";
               position: absolute;
               left: 100%;
               -webkit-transform-origin: right;
@@ -1217,7 +1496,9 @@ html, body {
               transform-origin: right;
               background-color: rgba(255, 255, 255, 0.3);
               opacity: 0; }
-          .container .header .burger__box .contact__menu .contact__box .contact__box2 .contact__text:hover:after, .sections .header .burger__box .contact__menu .contact__box .contact__box2 .contact__text:hover:after, .section .header .burger__box .contact__menu .contact__box .contact__box2 .contact__text:hover:after {
+          .container .header .burger__box .contact__menu .contact__box .contact__box2 .contact__text:hover:after,
+          .sections .header .burger__box .contact__menu .contact__box .contact__box2 .contact__text:hover:after,
+          .section .header .burger__box .contact__menu .contact__box .contact__box2 .contact__text:hover:after {
             top: 0;
             right: 0;
             bottom: 0;
@@ -1226,20 +1507,26 @@ html, body {
             transition: 0.3s;
             width: 30px;
             height: 100%;
-            content: '';
+            content: "";
             position: absolute;
             -webkit-transform-origin: right;
             -ms-transform-origin: right;
             transform-origin: right;
             background-color: rgba(72, 49, 212, 0.1);
             opacity: 1; }
-          .container .header .burger__box .contact__menu .contact__box .contact__box2 .contact__margin, .sections .header .burger__box .contact__menu .contact__box .contact__box2 .contact__margin, .section .header .burger__box .contact__menu .contact__box .contact__box2 .contact__margin {
+          .container .header .burger__box .contact__menu .contact__box .contact__box2 .contact__margin,
+          .sections .header .burger__box .contact__menu .contact__box .contact__box2 .contact__margin,
+          .section .header .burger__box .contact__menu .contact__box .contact__box2 .contact__margin {
             position: relative;
             top: 20px; }
-          .container .header .burger__box .contact__menu .contact__box .contact__box2 .contact__margin2, .sections .header .burger__box .contact__menu .contact__box .contact__box2 .contact__margin2, .section .header .burger__box .contact__menu .contact__box .contact__box2 .contact__margin2 {
+          .container .header .burger__box .contact__menu .contact__box .contact__box2 .contact__margin2,
+          .sections .header .burger__box .contact__menu .contact__box .contact__box2 .contact__margin2,
+          .section .header .burger__box .contact__menu .contact__box .contact__box2 .contact__margin2 {
             position: relative;
             top: 40px; }
-        .container .header .burger__box .contact__menu .contact__box .contact2__box-active, .sections .header .burger__box .contact__menu .contact__box .contact2__box-active, .section .header .burger__box .contact__menu .contact__box .contact2__box-active {
+        .container .header .burger__box .contact__menu .contact__box .contact2__box-active,
+        .sections .header .burger__box .contact__menu .contact__box .contact2__box-active,
+        .section .header .burger__box .contact__menu .contact__box .contact2__box-active {
           animation-name: contact__box2;
           animation-duration: 0.5s;
           animation-iteration-count: 1;
@@ -1255,23 +1542,33 @@ html, body {
       -webkit-transform: translate3d(0, 0, 0);
       -ms-transform: translate3d(0, 0, 0);
       transform: translate3d(0, 0, 0); } }
-        .container .header .burger__box .contact__menu .contact__box .sociable__box, .sections .header .burger__box .contact__menu .contact__box .sociable__box, .section .header .burger__box .contact__menu .contact__box .sociable__box {
+        .container .header .burger__box .contact__menu .contact__box .sociable__box,
+        .sections .header .burger__box .contact__menu .contact__box .sociable__box,
+        .section .header .burger__box .contact__menu .contact__box .sociable__box {
           display: flex;
           height: 40px;
           align-items: center;
           opacity: 0; }
-          .container .header .burger__box .contact__menu .contact__box .sociable__box .socible__img, .sections .header .burger__box .contact__menu .contact__box .sociable__box .socible__img, .section .header .burger__box .contact__menu .contact__box .sociable__box .socible__img {
+          .container .header .burger__box .contact__menu .contact__box .sociable__box .socible__img,
+          .sections .header .burger__box .contact__menu .contact__box .sociable__box .socible__img,
+          .section .header .burger__box .contact__menu .contact__box .sociable__box .socible__img {
             width: 35px;
             height: 35px;
             transition: 0.1s;
             position: relative;
             top: 110px; }
-          .container .header .burger__box .contact__menu .contact__box .sociable__box .socible__img:hover, .sections .header .burger__box .contact__menu .contact__box .sociable__box .socible__img:hover, .section .header .burger__box .contact__menu .contact__box .sociable__box .socible__img:hover {
+          .container .header .burger__box .contact__menu .contact__box .sociable__box .socible__img:hover,
+          .sections .header .burger__box .contact__menu .contact__box .sociable__box .socible__img:hover,
+          .section .header .burger__box .contact__menu .contact__box .sociable__box .socible__img:hover {
             margin-bottom: 10px;
             transform: rotate(-10deg); }
-          .container .header .burger__box .contact__menu .contact__box .sociable__box .sociable__margin, .sections .header .burger__box .contact__menu .contact__box .sociable__box .sociable__margin, .section .header .burger__box .contact__menu .contact__box .sociable__box .sociable__margin {
+          .container .header .burger__box .contact__menu .contact__box .sociable__box .sociable__margin,
+          .sections .header .burger__box .contact__menu .contact__box .sociable__box .sociable__margin,
+          .section .header .burger__box .contact__menu .contact__box .sociable__box .sociable__margin {
             margin-right: 25px; }
-        .container .header .burger__box .contact__menu .contact__box .sociable__box-active, .sections .header .burger__box .contact__menu .contact__box .sociable__box-active, .section .header .burger__box .contact__menu .contact__box .sociable__box-active {
+        .container .header .burger__box .contact__menu .contact__box .sociable__box-active,
+        .sections .header .burger__box .contact__menu .contact__box .sociable__box-active,
+        .section .header .burger__box .contact__menu .contact__box .sociable__box-active {
           animation-name: contact__box2;
           animation-duration: 0.5s;
           animation-iteration-count: 1;
@@ -1287,7 +1584,9 @@ html, body {
       -webkit-transform: translate3d(0, 0, 0);
       -ms-transform: translate3d(0, 0, 0);
       transform: translate3d(0, 0, 0); } }
-      .container .header .burger__box .contact__menu::before, .sections .header .burger__box .contact__menu::before, .section .header .burger__box .contact__menu::before {
+      .container .header .burger__box .contact__menu::before,
+      .sections .header .burger__box .contact__menu::before,
+      .section .header .burger__box .contact__menu::before {
         top: 0;
         right: 0;
         bottom: 0;
@@ -1296,7 +1595,7 @@ html, body {
         transition: 0.3s;
         width: 100%;
         height: 100%;
-        content: '';
+        content: "";
         position: absolute;
         -webkit-transform-origin: top right;
         -ms-transform-origin: top right;
@@ -1304,23 +1603,33 @@ html, body {
         -webkit-transform: scaleX(0.3826) scaleY(0.27);
         -ms-transform: scaleX(0.3826) scaleY(0.27);
         transform: scaleX(0.3826) scaleY(0.27); }
-    .container .header .burger__box .contact__menu-active, .sections .header .burger__box .contact__menu-active, .section .header .burger__box .contact__menu-active {
+    .container .header .burger__box .contact__menu-active,
+    .sections .header .burger__box .contact__menu-active,
+    .section .header .burger__box .contact__menu-active {
       width: 350px;
       height: 500px;
       right: 40px;
       top: 5px; }
-      .container .header .burger__box .contact__menu-active .contact__box, .sections .header .burger__box .contact__menu-active .contact__box, .section .header .burger__box .contact__menu-active .contact__box {
+      .container .header .burger__box .contact__menu-active .contact__box,
+      .sections .header .burger__box .contact__menu-active .contact__box,
+      .section .header .burger__box .contact__menu-active .contact__box {
         opacity: 1; }
-      .container .header .burger__box .contact__menu-active::before, .sections .header .burger__box .contact__menu-active::before, .section .header .burger__box .contact__menu-active::before {
+      .container .header .burger__box .contact__menu-active::before,
+      .sections .header .burger__box .contact__menu-active::before,
+      .section .header .burger__box .contact__menu-active::before {
         transform: scaleX(1) scaleY(1.05);
         -ms-transform: scaleX(1) scaleY(1.05);
         -webkit-transform: scaleX(1) scaleY(1.05);
         box-shadow: 0px 4px 5px rgba(64, 26, 113, 0.25);
         background-color: #fff; }
-    .container .header .burger__box .contact__menu-non, .sections .header .burger__box .contact__menu-non, .section .header .burger__box .contact__menu-non {
+    .container .header .burger__box .contact__menu-non,
+    .sections .header .burger__box .contact__menu-non,
+    .section .header .burger__box .contact__menu-non {
       width: 350px;
       height: 500px; }
-      .container .header .burger__box .contact__menu-non::before, .sections .header .burger__box .contact__menu-non::before, .section .header .burger__box .contact__menu-non::before {
+      .container .header .burger__box .contact__menu-non::before,
+      .sections .header .burger__box .contact__menu-non::before,
+      .section .header .burger__box .contact__menu-non::before {
         -webkit-transform: scaleX(0.3826) scaleY(0.27);
         -ms-transform: scaleX(0.3826) scaleY(0.27);
         transform: scaleX(0.3826) scaleY(0.27);
@@ -1338,7 +1647,9 @@ html, body {
       -ms-transform: scaleX(0) scaleY(0);
       transform: scaleX(0) scaleY(0);
       opacity: 0; } }
-    .container .header .burger__box .burger, .sections .header .burger__box .burger, .section .header .burger__box .burger {
+    .container .header .burger__box .burger,
+    .sections .header .burger__box .burger,
+    .section .header .burger__box .burger {
       width: 2.78em;
       height: 2.09em;
       background: none;
@@ -1347,13 +1658,17 @@ html, body {
       top: 17px;
       cursor: pointer;
       z-index: 999; }
-      .container .header .burger__box .burger::before, .sections .header .burger__box .burger::before, .section .header .burger__box .burger::before {
-        content: '';
+      .container .header .burger__box .burger::before,
+      .sections .header .burger__box .burger::before,
+      .section .header .burger__box .burger::before {
+        content: "";
         width: 60%;
         height: 2px;
         top: 12px; }
-      .container .header .burger__box .burger::after, .sections .header .burger__box .burger::after, .section .header .burger__box .burger::after {
-        content: '';
+      .container .header .burger__box .burger::after,
+      .sections .header .burger__box .burger::after,
+      .section .header .burger__box .burger::after {
+        content: "";
         width: 100%;
         height: 2px;
         position: absolute;
@@ -1362,13 +1677,17 @@ html, body {
         -webkit-transform: rotate(0deg);
         -ms-transform: rotate(0deg);
         transform: rotate(0deg); }
-    .container .header .burger__box .burger__active::before, .sections .header .burger__box .burger__active::before, .section .header .burger__box .burger__active::before {
+    .container .header .burger__box .burger__active::before,
+    .sections .header .burger__box .burger__active::before,
+    .section .header .burger__box .burger__active::before {
       top: 0;
       width: 100%;
       -webkit-transform: rotate(-45deg);
       -ms-transform: rotate(-45deg);
       transform: rotate(-45deg); }
-    .container .header .burger__box .burger__active::after, .sections .header .burger__box .burger__active::after, .section .header .burger__box .burger__active::after {
+    .container .header .burger__box .burger__active::after,
+    .sections .header .burger__box .burger__active::after,
+    .section .header .burger__box .burger__active::after {
       -webkit-transform: rotate(45deg);
       -ms-transform: rotate(45deg);
       transform: rotate(45deg); }
@@ -1391,7 +1710,7 @@ html, body {
           font-size: 18px;
           line-height: 29px;
           letter-spacing: 0.04em;
-          color: #CCF381;
+          color: #ccf381;
           margin-top: 20px; }
           .footer .section__top .section__box .box__container .container__text::after {
             width: 30px;
@@ -1437,7 +1756,27 @@ html, body {
       -ms-transform: translate3d(0, 0, 0);
       transform: translate3d(0, 0, 0); } } }
 @media screen and (max-width: 1000px) {
-  .container .header, .sections .header, .section .header {
+  .section0 .container__main .card__container {
+    flex-wrap: nowrap !important;
+    display: flex;
+    flex-direction: column;
+    align-items: center; }
+
+  .section0 .section__container {
+    display: flex;
+    flex-direction: column;
+    align-items: center; }
+
+  .skeleton-loader {
+    width: 100%;
+    flex-wrap: nowrap;
+    display: flex;
+    flex-direction: column;
+    align-items: center; }
+
+  .container .header,
+  .sections .header,
+  .section .header {
     width: 100%;
     height: 10vh;
     padding-left: 30px;
@@ -1447,25 +1786,33 @@ html, body {
     top: 40%;
     position: absolute;
     top: -1%; }
-    .container .header .header__logo, .sections .header .header__logo, .section .header .header__logo {
+    .container .header .header__logo,
+    .sections .header .header__logo,
+    .section .header .header__logo {
       font-size: 26px;
       line-height: 0px;
-      color: #4831D4;
+      color: #4831d4;
       user-select: none;
       cursor: pointer;
       position: relative;
       top: 5px; }
-      .container .header .header__logo .header__img, .sections .header .header__logo .header__img, .section .header .header__logo .header__img {
+      .container .header .header__logo .header__img,
+      .sections .header .header__logo .header__img,
+      .section .header .header__logo .header__img {
         width: 30px;
         height: 30px;
         position: relative;
         top: 15px;
         margin-left: -3px;
         margin-right: -3px; }
-      .container .header .header__logo .header__color, .sections .header .header__logo .header__color, .section .header .header__logo .header__color {
-        fill: #4831D4;
+      .container .header .header__logo .header__color,
+      .sections .header .header__logo .header__color,
+      .section .header .header__logo .header__color {
+        fill: #4831d4;
         transition: 1s; }
-    .container .header .first__logo-active, .sections .header .first__logo-active, .section .header .first__logo-active {
+    .container .header .first__logo-active,
+    .sections .header .first__logo-active,
+    .section .header .first__logo-active {
       animation-duration: 1s; }
   @keyframes first__logo {
     0% {
@@ -1474,7 +1821,9 @@ html, body {
     100% {
       position: relative;
       left: 0px; } }
-    .container .header .last__logo-active, .sections .header .last__logo-active, .section .header .last__logo-active {
+    .container .header .last__logo-active,
+    .sections .header .last__logo-active,
+    .section .header .last__logo-active {
       animation-duration: 1s; }
   @keyframes last__logo {
     0% {
@@ -1483,22 +1832,28 @@ html, body {
     100% {
       position: relative;
       right: 0px; } }
-    .container .header .burger__box .contact__menu, .sections .header .burger__box .contact__menu, .section .header .burger__box .contact__menu {
+    .container .header .burger__box .contact__menu,
+    .sections .header .burger__box .contact__menu,
+    .section .header .burger__box .contact__menu {
       position: absolute;
       -webkit-transition: opacity 0.4s, box-shadow 0.4s;
       transition: opacity 0.4s, box-shadow 0.4s;
       z-index: 998; }
-      .container .header .burger__box .contact__menu .contact__box, .sections .header .burger__box .contact__menu .contact__box, .section .header .burger__box .contact__menu .contact__box {
+      .container .header .burger__box .contact__menu .contact__box,
+      .sections .header .burger__box .contact__menu .contact__box,
+      .section .header .burger__box .contact__menu .contact__box {
         width: 100%;
         height: 100%;
         padding-top: 20%;
         padding-left: 55px; }
-        .container .header .burger__box .contact__menu .contact__box .contact__box1 .contact__text, .sections .header .burger__box .contact__menu .contact__box .contact__box1 .contact__text, .section .header .burger__box .contact__menu .contact__box .contact__box1 .contact__text {
+        .container .header .burger__box .contact__menu .contact__box .contact__box1 .contact__text,
+        .sections .header .burger__box .contact__menu .contact__box .contact__box1 .contact__text,
+        .section .header .burger__box .contact__menu .contact__box .contact__box1 .contact__text {
           z-index: 9999;
           font-size: 18px;
           line-height: 29px;
           letter-spacing: 0.04em;
-          color: #4831D4;
+          color: #4831d4;
           cursor: pointer;
           margin-top: 5px;
           -webkit-text-decoration: none;
@@ -1509,7 +1864,9 @@ html, body {
           -webkit-transition-property: opacity, color, background-color, transform, border;
           transition-property: opacity, color, background-color, transform, border;
           position: relative; }
-          .container .header .burger__box .contact__menu .contact__box .contact__box1 .contact__text::after, .sections .header .burger__box .contact__menu .contact__box .contact__box1 .contact__text::after, .section .header .burger__box .contact__menu .contact__box .contact__box1 .contact__text::after {
+          .container .header .burger__box .contact__menu .contact__box .contact__box1 .contact__text::after,
+          .sections .header .burger__box .contact__menu .contact__box .contact__box1 .contact__text::after,
+          .section .header .burger__box .contact__menu .contact__box .contact__box1 .contact__text::after {
             top: 0;
             right: 0;
             bottom: 0;
@@ -1518,10 +1875,12 @@ html, body {
             transition: 0.3s;
             width: 30px;
             height: 100%;
-            content: '';
+            content: "";
             position: absolute;
             left: 100%; }
-        .container .header .burger__box .contact__menu .contact__box .contact__box1 .contact__text:hover:after, .sections .header .burger__box .contact__menu .contact__box .contact__box1 .contact__text:hover:after, .section .header .burger__box .contact__menu .contact__box .contact__box1 .contact__text:hover:after {
+        .container .header .burger__box .contact__menu .contact__box .contact__box1 .contact__text:hover:after,
+        .sections .header .burger__box .contact__menu .contact__box .contact__box1 .contact__text:hover:after,
+        .section .header .burger__box .contact__menu .contact__box .contact__box1 .contact__text:hover:after {
           top: 0;
           right: 0;
           bottom: 0;
@@ -1530,14 +1889,16 @@ html, body {
           transition: 0.3s;
           width: 30px;
           height: 100%;
-          content: '';
+          content: "";
           position: absolute;
           -webkit-transform-origin: right;
           -ms-transform-origin: right;
           transform-origin: right;
           background-color: rgba(72, 49, 212, 0.1);
           opacity: 1; }
-        .container .header .burger__box .contact__menu .contact__box .contact__box-active, .sections .header .burger__box .contact__menu .contact__box .contact__box-active, .section .header .burger__box .contact__menu .contact__box .contact__box-active {
+        .container .header .burger__box .contact__menu .contact__box .contact__box-active,
+        .sections .header .burger__box .contact__menu .contact__box .contact__box-active,
+        .section .header .burger__box .contact__menu .contact__box .contact__box-active {
           animation-duration: 0.5s; }
   @keyframes contact__box {
     0% {
@@ -1550,22 +1911,28 @@ html, body {
       -webkit-transform: translate3d(0, 0, 0);
       -ms-transform: translate3d(0, 0, 0);
       transform: translate3d(0, 0, 0); } }
-        .container .header .burger__box .contact__menu .contact__box .contact__box2, .sections .header .burger__box .contact__menu .contact__box .contact__box2, .section .header .burger__box .contact__menu .contact__box .contact__box2 {
+        .container .header .burger__box .contact__menu .contact__box .contact__box2,
+        .sections .header .burger__box .contact__menu .contact__box .contact__box2,
+        .section .header .burger__box .contact__menu .contact__box .contact__box2 {
           opacity: 0; }
-          .container .header .burger__box .contact__menu .contact__box .contact__box2 .contact__text2, .sections .header .burger__box .contact__menu .contact__box .contact__box2 .contact__text2, .section .header .burger__box .contact__menu .contact__box .contact__box2 .contact__text2 {
+          .container .header .burger__box .contact__menu .contact__box .contact__box2 .contact__text2,
+          .sections .header .burger__box .contact__menu .contact__box .contact__box2 .contact__text2,
+          .section .header .burger__box .contact__menu .contact__box .contact__box2 .contact__text2 {
             font-size: 18px;
             line-height: 29px;
             cursor: pointer;
             margin-top: 70px; }
-          .container .header .burger__box .contact__menu .contact__box .contact__box2 .contact__text, .sections .header .burger__box .contact__menu .contact__box .contact__box2 .contact__text, .section .header .burger__box .contact__menu .contact__box .contact__box2 .contact__text {
+          .container .header .burger__box .contact__menu .contact__box .contact__box2 .contact__text,
+          .sections .header .burger__box .contact__menu .contact__box .contact__box2 .contact__text,
+          .section .header .burger__box .contact__menu .contact__box .contact__box2 .contact__text {
             z-index: 9999;
-            font-family: 'SF UI Text';
+            font-family: "SF UI Text";
             font-style: normal;
             font-weight: 500;
             font-size: 18px;
             line-height: 29px;
             letter-spacing: 0.04em;
-            color: #4831D4;
+            color: #4831d4;
             cursor: pointer;
             -webkit-text-decoration: none;
             text-decoration: none;
@@ -1575,7 +1942,9 @@ html, body {
             -webkit-transition-property: opacity, color, background-color, transform, border;
             transition-property: opacity, color, background-color, transform, border;
             position: relative; }
-            .container .header .burger__box .contact__menu .contact__box .contact__box2 .contact__text::after, .sections .header .burger__box .contact__menu .contact__box .contact__box2 .contact__text::after, .section .header .burger__box .contact__menu .contact__box .contact__box2 .contact__text::after {
+            .container .header .burger__box .contact__menu .contact__box .contact__box2 .contact__text::after,
+            .sections .header .burger__box .contact__menu .contact__box .contact__box2 .contact__text::after,
+            .section .header .burger__box .contact__menu .contact__box .contact__box2 .contact__text::after {
               top: 0;
               right: 0;
               bottom: 0;
@@ -1584,7 +1953,7 @@ html, body {
               transition: 0.3s;
               width: 30px;
               height: 100%;
-              content: '';
+              content: "";
               position: absolute;
               left: 100%;
               -webkit-transform-origin: right;
@@ -1592,7 +1961,9 @@ html, body {
               transform-origin: right;
               background-color: rgba(255, 255, 255, 0.3);
               opacity: 0; }
-          .container .header .burger__box .contact__menu .contact__box .contact__box2 .contact__text:hover:after, .sections .header .burger__box .contact__menu .contact__box .contact__box2 .contact__text:hover:after, .section .header .burger__box .contact__menu .contact__box .contact__box2 .contact__text:hover:after {
+          .container .header .burger__box .contact__menu .contact__box .contact__box2 .contact__text:hover:after,
+          .sections .header .burger__box .contact__menu .contact__box .contact__box2 .contact__text:hover:after,
+          .section .header .burger__box .contact__menu .contact__box .contact__box2 .contact__text:hover:after {
             top: 0;
             right: 0;
             bottom: 0;
@@ -1601,20 +1972,26 @@ html, body {
             transition: 0.3s;
             width: 30px;
             height: 100%;
-            content: '';
+            content: "";
             position: absolute;
             -webkit-transform-origin: right;
             -ms-transform-origin: right;
             transform-origin: right;
             background-color: rgba(72, 49, 212, 0.1);
             opacity: 1; }
-          .container .header .burger__box .contact__menu .contact__box .contact__box2 .contact__margin, .sections .header .burger__box .contact__menu .contact__box .contact__box2 .contact__margin, .section .header .burger__box .contact__menu .contact__box .contact__box2 .contact__margin {
+          .container .header .burger__box .contact__menu .contact__box .contact__box2 .contact__margin,
+          .sections .header .burger__box .contact__menu .contact__box .contact__box2 .contact__margin,
+          .section .header .burger__box .contact__menu .contact__box .contact__box2 .contact__margin {
             position: relative;
             top: 20px; }
-          .container .header .burger__box .contact__menu .contact__box .contact__box2 .contact__margin2, .sections .header .burger__box .contact__menu .contact__box .contact__box2 .contact__margin2, .section .header .burger__box .contact__menu .contact__box .contact__box2 .contact__margin2 {
+          .container .header .burger__box .contact__menu .contact__box .contact__box2 .contact__margin2,
+          .sections .header .burger__box .contact__menu .contact__box .contact__box2 .contact__margin2,
+          .section .header .burger__box .contact__menu .contact__box .contact__box2 .contact__margin2 {
             position: relative;
             top: 30px; }
-        .container .header .burger__box .contact__menu .contact__box .contact2__box-active, .sections .header .burger__box .contact__menu .contact__box .contact2__box-active, .section .header .burger__box .contact__menu .contact__box .contact2__box-active {
+        .container .header .burger__box .contact__menu .contact__box .contact2__box-active,
+        .sections .header .burger__box .contact__menu .contact__box .contact2__box-active,
+        .section .header .burger__box .contact__menu .contact__box .contact2__box-active {
           animation-name: contact__box2;
           animation-duration: 0.5s;
           animation-iteration-count: 1;
@@ -1630,23 +2007,33 @@ html, body {
       -webkit-transform: translate3d(0, 0, 0);
       -ms-transform: translate3d(0, 0, 0);
       transform: translate3d(0, 0, 0); } }
-        .container .header .burger__box .contact__menu .contact__box .sociable__box, .sections .header .burger__box .contact__menu .contact__box .sociable__box, .section .header .burger__box .contact__menu .contact__box .sociable__box {
+        .container .header .burger__box .contact__menu .contact__box .sociable__box,
+        .sections .header .burger__box .contact__menu .contact__box .sociable__box,
+        .section .header .burger__box .contact__menu .contact__box .sociable__box {
           display: flex;
           height: 40px;
           align-items: center;
           opacity: 0; }
-          .container .header .burger__box .contact__menu .contact__box .sociable__box .socible__img, .sections .header .burger__box .contact__menu .contact__box .sociable__box .socible__img, .section .header .burger__box .contact__menu .contact__box .sociable__box .socible__img {
+          .container .header .burger__box .contact__menu .contact__box .sociable__box .socible__img,
+          .sections .header .burger__box .contact__menu .contact__box .sociable__box .socible__img,
+          .section .header .burger__box .contact__menu .contact__box .sociable__box .socible__img {
             width: 30px;
             height: 30px;
             transition: 0.1s;
             position: relative;
             top: 140px; }
-          .container .header .burger__box .contact__menu .contact__box .sociable__box .socible__img:hover, .sections .header .burger__box .contact__menu .contact__box .sociable__box .socible__img:hover, .section .header .burger__box .contact__menu .contact__box .sociable__box .socible__img:hover {
+          .container .header .burger__box .contact__menu .contact__box .sociable__box .socible__img:hover,
+          .sections .header .burger__box .contact__menu .contact__box .sociable__box .socible__img:hover,
+          .section .header .burger__box .contact__menu .contact__box .sociable__box .socible__img:hover {
             margin-bottom: 10px;
             transform: rotate(-10deg); }
-          .container .header .burger__box .contact__menu .contact__box .sociable__box .sociable__margin, .sections .header .burger__box .contact__menu .contact__box .sociable__box .sociable__margin, .section .header .burger__box .contact__menu .contact__box .sociable__box .sociable__margin {
+          .container .header .burger__box .contact__menu .contact__box .sociable__box .sociable__margin,
+          .sections .header .burger__box .contact__menu .contact__box .sociable__box .sociable__margin,
+          .section .header .burger__box .contact__menu .contact__box .sociable__box .sociable__margin {
             margin-right: 25px; }
-        .container .header .burger__box .contact__menu .contact__box .sociable__box-active, .sections .header .burger__box .contact__menu .contact__box .sociable__box-active, .section .header .burger__box .contact__menu .contact__box .sociable__box-active {
+        .container .header .burger__box .contact__menu .contact__box .sociable__box-active,
+        .sections .header .burger__box .contact__menu .contact__box .sociable__box-active,
+        .section .header .burger__box .contact__menu .contact__box .sociable__box-active {
           animation-name: contact__box2;
           animation-duration: 0.5s;
           animation-iteration-count: 1;
@@ -1662,7 +2049,9 @@ html, body {
       -webkit-transform: translate3d(0, 0, 0);
       -ms-transform: translate3d(0, 0, 0);
       transform: translate3d(0, 0, 0); } }
-      .container .header .burger__box .contact__menu::before, .sections .header .burger__box .contact__menu::before, .section .header .burger__box .contact__menu::before {
+      .container .header .burger__box .contact__menu::before,
+      .sections .header .burger__box .contact__menu::before,
+      .section .header .burger__box .contact__menu::before {
         top: 0;
         right: 0;
         bottom: 0;
@@ -1671,7 +2060,7 @@ html, body {
         transition: 0.3s;
         width: 100%;
         height: 100%;
-        content: '';
+        content: "";
         position: absolute;
         -webkit-transform-origin: top right;
         -ms-transform-origin: top right;
@@ -1679,23 +2068,33 @@ html, body {
         -webkit-transform: scaleX(0.3826) scaleY(0.27);
         -ms-transform: scaleX(0.3826) scaleY(0.27);
         transform: scaleX(0.3826) scaleY(0.27); }
-    .container .header .burger__box .contact__menu-active, .sections .header .burger__box .contact__menu-active, .section .header .burger__box .contact__menu-active {
+    .container .header .burger__box .contact__menu-active,
+    .sections .header .burger__box .contact__menu-active,
+    .section .header .burger__box .contact__menu-active {
       width: 350px;
       height: 500px;
       right: 25px;
       top: 10px; }
-      .container .header .burger__box .contact__menu-active .contact__box, .sections .header .burger__box .contact__menu-active .contact__box, .section .header .burger__box .contact__menu-active .contact__box {
+      .container .header .burger__box .contact__menu-active .contact__box,
+      .sections .header .burger__box .contact__menu-active .contact__box,
+      .section .header .burger__box .contact__menu-active .contact__box {
         opacity: 1; }
-      .container .header .burger__box .contact__menu-active::before, .sections .header .burger__box .contact__menu-active::before, .section .header .burger__box .contact__menu-active::before {
+      .container .header .burger__box .contact__menu-active::before,
+      .sections .header .burger__box .contact__menu-active::before,
+      .section .header .burger__box .contact__menu-active::before {
         transform: scaleX(1) scaleY(1.05);
         -ms-transform: scaleX(1) scaleY(1.05);
         -webkit-transform: scaleX(1) scaleY(1.05);
         box-shadow: 0px 4px 5px rgba(64, 26, 113, 0.25);
         background-color: #fff; }
-    .container .header .burger__box .contact__menu-non, .sections .header .burger__box .contact__menu-non, .section .header .burger__box .contact__menu-non {
+    .container .header .burger__box .contact__menu-non,
+    .sections .header .burger__box .contact__menu-non,
+    .section .header .burger__box .contact__menu-non {
       width: 350px;
       height: 500px; }
-      .container .header .burger__box .contact__menu-non::before, .sections .header .burger__box .contact__menu-non::before, .section .header .burger__box .contact__menu-non::before {
+      .container .header .burger__box .contact__menu-non::before,
+      .sections .header .burger__box .contact__menu-non::before,
+      .section .header .burger__box .contact__menu-non::before {
         -webkit-transform: scaleX(0.3826) scaleY(0.27);
         -ms-transform: scaleX(0.3826) scaleY(0.27);
         transform: scaleX(0.3826) scaleY(0.27);
@@ -1713,7 +2112,9 @@ html, body {
       -ms-transform: scaleX(0) scaleY(0);
       transform: scaleX(0) scaleY(0);
       opacity: 0; } }
-    .container .header .burger__box .burger, .sections .header .burger__box .burger, .section .header .burger__box .burger {
+    .container .header .burger__box .burger,
+    .sections .header .burger__box .burger,
+    .section .header .burger__box .burger {
       width: 2.78em;
       height: 1.7em;
       background: none;
@@ -1722,13 +2123,17 @@ html, body {
       top: 17px;
       cursor: pointer;
       z-index: 999; }
-      .container .header .burger__box .burger::before, .sections .header .burger__box .burger::before, .section .header .burger__box .burger::before {
-        content: '';
+      .container .header .burger__box .burger::before,
+      .sections .header .burger__box .burger::before,
+      .section .header .burger__box .burger::before {
+        content: "";
         width: 60%;
         height: 2px;
         top: 12px; }
-      .container .header .burger__box .burger::after, .sections .header .burger__box .burger::after, .section .header .burger__box .burger::after {
-        content: '';
+      .container .header .burger__box .burger::after,
+      .sections .header .burger__box .burger::after,
+      .section .header .burger__box .burger::after {
+        content: "";
         width: 100%;
         height: 2px;
         position: absolute;
@@ -1737,13 +2142,17 @@ html, body {
         -webkit-transform: rotate(0deg);
         -ms-transform: rotate(0deg);
         transform: rotate(0deg); }
-    .container .header .burger__box .burger__active::before, .sections .header .burger__box .burger__active::before, .section .header .burger__box .burger__active::before {
+    .container .header .burger__box .burger__active::before,
+    .sections .header .burger__box .burger__active::before,
+    .section .header .burger__box .burger__active::before {
       top: 0;
       width: 100%;
       -webkit-transform: rotate(-45deg);
       -ms-transform: rotate(-45deg);
       transform: rotate(-45deg); }
-    .container .header .burger__box .burger__active::after, .sections .header .burger__box .burger__active::after, .section .header .burger__box .burger__active::after {
+    .container .header .burger__box .burger__active::after,
+    .sections .header .burger__box .burger__active::after,
+    .section .header .burger__box .burger__active::after {
       -webkit-transform: rotate(45deg);
       -ms-transform: rotate(45deg);
       transform: rotate(45deg); }
@@ -1777,32 +2186,6 @@ html, body {
       background-size: 30px 30px; }
     .section0 .section__container .section__button-margin {
       margin-left: 30px; }
-    .section0 .container__main .container__card {
-      width: 350px;
-      height: 280px;
-      margin-top: 35px;
-      margin-bottom: 45px; }
-      .section0 .container__main .container__card .card__top {
-        width: 100%;
-        height: 63%; }
-        .section0 .container__main .container__card .card__top .card__img {
-          -webkit-user-drag: none;
-          -webkit-app-region: no-drag;
-          cursor: default; }
-      .section0 .container__main .container__card .card__bottom {
-        width: 100%;
-        height: 37%;
-        padding-left: 20px;
-        padding-top: 20px;
-        padding-right: 20px; }
-        .section0 .container__main .container__card .card__bottom .card__titel {
-          font-size: 18px;
-          line-height: 20px; }
-        .section0 .container__main .container__card .card__bottom .card__description {
-          font-size: 18px;
-          line-height: 20px;
-          margin-top: 10px;
-          cursor: pointer; }
 
   .footer {
     width: 100%;
@@ -1822,7 +2205,7 @@ html, body {
           font-size: 18px;
           line-height: 29px;
           letter-spacing: 0.04em;
-          color: #CCF381;
+          color: #ccf381;
           margin-top: 10px; }
           .footer .section__top .section__box .box__container .container__text::after {
             width: 30px;
@@ -1868,7 +2251,9 @@ html, body {
       -ms-transform: translate3d(0, 0, 0);
       transform: translate3d(0, 0, 0); } } }
 @media screen and (max-width: 820px) {
-  .container .header, .sections .header, .section .header {
+  .container .header,
+  .sections .header,
+  .section .header {
     width: 100%;
     height: 10vh;
     padding-left: 30px;
@@ -1878,26 +2263,34 @@ html, body {
     top: 40%;
     position: absolute;
     top: -1%; }
-    .container .header .header__logo, .sections .header .header__logo, .section .header .header__logo {
+    .container .header .header__logo,
+    .sections .header .header__logo,
+    .section .header .header__logo {
       font-size: 26px;
       line-height: 0px;
-      color: #4831D4;
+      color: #4831d4;
       user-select: none;
       cursor: pointer;
       position: relative;
       top: 5px;
       z-index: 99999; }
-      .container .header .header__logo .header__img, .sections .header .header__logo .header__img, .section .header .header__logo .header__img {
+      .container .header .header__logo .header__img,
+      .sections .header .header__logo .header__img,
+      .section .header .header__logo .header__img {
         width: 30px;
         height: 30px;
         position: relative;
         top: 15px;
         margin-left: -3px;
         margin-right: -3px; }
-      .container .header .header__logo .header__color, .sections .header .header__logo .header__color, .section .header .header__logo .header__color {
-        fill: #4831D4;
+      .container .header .header__logo .header__color,
+      .sections .header .header__logo .header__color,
+      .section .header .header__logo .header__color {
+        fill: #4831d4;
         transition: 1s; }
-    .container .header .first__logo-active, .sections .header .first__logo-active, .section .header .first__logo-active {
+    .container .header .first__logo-active,
+    .sections .header .first__logo-active,
+    .section .header .first__logo-active {
       animation-duration: 1s; }
   @keyframes first__logo {
     0% {
@@ -1906,7 +2299,9 @@ html, body {
     100% {
       position: relative;
       left: 0px; } }
-    .container .header .last__logo-active, .sections .header .last__logo-active, .section .header .last__logo-active {
+    .container .header .last__logo-active,
+    .sections .header .last__logo-active,
+    .section .header .last__logo-active {
       animation-duration: 1s; }
   @keyframes last__logo {
     0% {
@@ -1915,22 +2310,28 @@ html, body {
     100% {
       position: relative;
       right: 0px; } }
-    .container .header .burger__box .contact__menu, .sections .header .burger__box .contact__menu, .section .header .burger__box .contact__menu {
+    .container .header .burger__box .contact__menu,
+    .sections .header .burger__box .contact__menu,
+    .section .header .burger__box .contact__menu {
       position: absolute;
       -webkit-transition: opacity 0.4s, box-shadow 0.4s;
       transition: opacity 0.4s, box-shadow 0.4s;
       z-index: 998; }
-      .container .header .burger__box .contact__menu .contact__box, .sections .header .burger__box .contact__menu .contact__box, .section .header .burger__box .contact__menu .contact__box {
+      .container .header .burger__box .contact__menu .contact__box,
+      .sections .header .burger__box .contact__menu .contact__box,
+      .section .header .burger__box .contact__menu .contact__box {
         width: 100%;
         height: 100%;
         padding-top: 20%;
         padding-left: 55px; }
-        .container .header .burger__box .contact__menu .contact__box .contact__box1 .contact__text, .sections .header .burger__box .contact__menu .contact__box .contact__box1 .contact__text, .section .header .burger__box .contact__menu .contact__box .contact__box1 .contact__text {
+        .container .header .burger__box .contact__menu .contact__box .contact__box1 .contact__text,
+        .sections .header .burger__box .contact__menu .contact__box .contact__box1 .contact__text,
+        .section .header .burger__box .contact__menu .contact__box .contact__box1 .contact__text {
           z-index: 9999;
           font-size: 20px;
           line-height: 29px;
           letter-spacing: 0.04em;
-          color: #4831D4;
+          color: #4831d4;
           cursor: pointer;
           margin-top: 5px;
           -webkit-text-decoration: none;
@@ -1941,7 +2342,9 @@ html, body {
           -webkit-transition-property: opacity, color, background-color, transform, border;
           transition-property: opacity, color, background-color, transform, border;
           position: relative; }
-          .container .header .burger__box .contact__menu .contact__box .contact__box1 .contact__text::after, .sections .header .burger__box .contact__menu .contact__box .contact__box1 .contact__text::after, .section .header .burger__box .contact__menu .contact__box .contact__box1 .contact__text::after {
+          .container .header .burger__box .contact__menu .contact__box .contact__box1 .contact__text::after,
+          .sections .header .burger__box .contact__menu .contact__box .contact__box1 .contact__text::after,
+          .section .header .burger__box .contact__menu .contact__box .contact__box1 .contact__text::after {
             top: 0;
             right: 0;
             bottom: 0;
@@ -1950,10 +2353,12 @@ html, body {
             transition: 0.3s;
             width: 30px;
             height: 100%;
-            content: '';
+            content: "";
             position: absolute;
             left: 100%; }
-        .container .header .burger__box .contact__menu .contact__box .contact__box1 .contact__text:hover:after, .sections .header .burger__box .contact__menu .contact__box .contact__box1 .contact__text:hover:after, .section .header .burger__box .contact__menu .contact__box .contact__box1 .contact__text:hover:after {
+        .container .header .burger__box .contact__menu .contact__box .contact__box1 .contact__text:hover:after,
+        .sections .header .burger__box .contact__menu .contact__box .contact__box1 .contact__text:hover:after,
+        .section .header .burger__box .contact__menu .contact__box .contact__box1 .contact__text:hover:after {
           top: 0;
           right: 0;
           bottom: 0;
@@ -1962,14 +2367,16 @@ html, body {
           transition: 0.3s;
           width: 30px;
           height: 100%;
-          content: '';
+          content: "";
           position: absolute;
           -webkit-transform-origin: right;
           -ms-transform-origin: right;
           transform-origin: right;
           background-color: rgba(72, 49, 212, 0.1);
           opacity: 1; }
-        .container .header .burger__box .contact__menu .contact__box .contact__box-active, .sections .header .burger__box .contact__menu .contact__box .contact__box-active, .section .header .burger__box .contact__menu .contact__box .contact__box-active {
+        .container .header .burger__box .contact__menu .contact__box .contact__box-active,
+        .sections .header .burger__box .contact__menu .contact__box .contact__box-active,
+        .section .header .burger__box .contact__menu .contact__box .contact__box-active {
           animation-duration: 0.5s; }
   @keyframes contact__box {
     0% {
@@ -1982,24 +2389,30 @@ html, body {
       -webkit-transform: translate3d(0, 0, 0);
       -ms-transform: translate3d(0, 0, 0);
       transform: translate3d(0, 0, 0); } }
-        .container .header .burger__box .contact__menu .contact__box .contact__box2, .sections .header .burger__box .contact__menu .contact__box .contact__box2, .section .header .burger__box .contact__menu .contact__box .contact__box2 {
+        .container .header .burger__box .contact__menu .contact__box .contact__box2,
+        .sections .header .burger__box .contact__menu .contact__box .contact__box2,
+        .section .header .burger__box .contact__menu .contact__box .contact__box2 {
           opacity: 0;
           display: flex;
           flex-direction: column; }
-          .container .header .burger__box .contact__menu .contact__box .contact__box2 .contact__text2, .sections .header .burger__box .contact__menu .contact__box .contact__box2 .contact__text2, .section .header .burger__box .contact__menu .contact__box .contact__box2 .contact__text2 {
+          .container .header .burger__box .contact__menu .contact__box .contact__box2 .contact__text2,
+          .sections .header .burger__box .contact__menu .contact__box .contact__box2 .contact__text2,
+          .section .header .burger__box .contact__menu .contact__box .contact__box2 .contact__text2 {
             font-size: 24px;
             line-height: 29px;
             cursor: pointer;
             margin-top: 70px; }
-          .container .header .burger__box .contact__menu .contact__box .contact__box2 .contact__text, .sections .header .burger__box .contact__menu .contact__box .contact__box2 .contact__text, .section .header .burger__box .contact__menu .contact__box .contact__box2 .contact__text {
+          .container .header .burger__box .contact__menu .contact__box .contact__box2 .contact__text,
+          .sections .header .burger__box .contact__menu .contact__box .contact__box2 .contact__text,
+          .section .header .burger__box .contact__menu .contact__box .contact__box2 .contact__text {
             z-index: 9999;
-            font-family: 'SF UI Text';
+            font-family: "SF UI Text";
             font-style: normal;
             font-weight: 500;
             font-size: 20px;
             line-height: 29px;
             letter-spacing: 0.04em;
-            color: #4831D4;
+            color: #4831d4;
             cursor: pointer;
             -webkit-text-decoration: none;
             text-decoration: none;
@@ -2009,7 +2422,9 @@ html, body {
             -webkit-transition-property: opacity, color, background-color, transform, border;
             transition-property: opacity, color, background-color, transform, border;
             position: relative; }
-            .container .header .burger__box .contact__menu .contact__box .contact__box2 .contact__text::after, .sections .header .burger__box .contact__menu .contact__box .contact__box2 .contact__text::after, .section .header .burger__box .contact__menu .contact__box .contact__box2 .contact__text::after {
+            .container .header .burger__box .contact__menu .contact__box .contact__box2 .contact__text::after,
+            .sections .header .burger__box .contact__menu .contact__box .contact__box2 .contact__text::after,
+            .section .header .burger__box .contact__menu .contact__box .contact__box2 .contact__text::after {
               top: 0;
               right: 0;
               bottom: 0;
@@ -2018,7 +2433,7 @@ html, body {
               transition: 0.3s;
               width: 30px;
               height: 100%;
-              content: '';
+              content: "";
               position: absolute;
               left: 100%;
               -webkit-transform-origin: right;
@@ -2026,7 +2441,9 @@ html, body {
               transform-origin: right;
               background-color: rgba(255, 255, 255, 0.3);
               opacity: 0; }
-          .container .header .burger__box .contact__menu .contact__box .contact__box2 .contact__text:hover:after, .sections .header .burger__box .contact__menu .contact__box .contact__box2 .contact__text:hover:after, .section .header .burger__box .contact__menu .contact__box .contact__box2 .contact__text:hover:after {
+          .container .header .burger__box .contact__menu .contact__box .contact__box2 .contact__text:hover:after,
+          .sections .header .burger__box .contact__menu .contact__box .contact__box2 .contact__text:hover:after,
+          .section .header .burger__box .contact__menu .contact__box .contact__box2 .contact__text:hover:after {
             top: 0;
             right: 0;
             bottom: 0;
@@ -2035,20 +2452,26 @@ html, body {
             transition: 0.3s;
             width: 30px;
             height: 100%;
-            content: '';
+            content: "";
             position: absolute;
             -webkit-transform-origin: right;
             -ms-transform-origin: right;
             transform-origin: right;
             background-color: rgba(72, 49, 212, 0.1);
             opacity: 1; }
-          .container .header .burger__box .contact__menu .contact__box .contact__box2 .contact__margin, .sections .header .burger__box .contact__menu .contact__box .contact__box2 .contact__margin, .section .header .burger__box .contact__menu .contact__box .contact__box2 .contact__margin {
+          .container .header .burger__box .contact__menu .contact__box .contact__box2 .contact__margin,
+          .sections .header .burger__box .contact__menu .contact__box .contact__box2 .contact__margin,
+          .section .header .burger__box .contact__menu .contact__box .contact__box2 .contact__margin {
             position: relative;
             top: 20px; }
-          .container .header .burger__box .contact__menu .contact__box .contact__box2 .contact__margin2, .sections .header .burger__box .contact__menu .contact__box .contact__box2 .contact__margin2, .section .header .burger__box .contact__menu .contact__box .contact__box2 .contact__margin2 {
+          .container .header .burger__box .contact__menu .contact__box .contact__box2 .contact__margin2,
+          .sections .header .burger__box .contact__menu .contact__box .contact__box2 .contact__margin2,
+          .section .header .burger__box .contact__menu .contact__box .contact__box2 .contact__margin2 {
             position: relative;
             top: 30px; }
-        .container .header .burger__box .contact__menu .contact__box .contact2__box-active, .sections .header .burger__box .contact__menu .contact__box .contact2__box-active, .section .header .burger__box .contact__menu .contact__box .contact2__box-active {
+        .container .header .burger__box .contact__menu .contact__box .contact2__box-active,
+        .sections .header .burger__box .contact__menu .contact__box .contact2__box-active,
+        .section .header .burger__box .contact__menu .contact__box .contact2__box-active {
           animation-name: contact__box2;
           animation-duration: 0.5s;
           animation-iteration-count: 1;
@@ -2064,23 +2487,33 @@ html, body {
       -webkit-transform: translate3d(0, 0, 0);
       -ms-transform: translate3d(0, 0, 0);
       transform: translate3d(0, 0, 0); } }
-        .container .header .burger__box .contact__menu .contact__box .sociable__box, .sections .header .burger__box .contact__menu .contact__box .sociable__box, .section .header .burger__box .contact__menu .contact__box .sociable__box {
+        .container .header .burger__box .contact__menu .contact__box .sociable__box,
+        .sections .header .burger__box .contact__menu .contact__box .sociable__box,
+        .section .header .burger__box .contact__menu .contact__box .sociable__box {
           display: flex;
           height: 40px;
           align-items: center;
           opacity: 0; }
-          .container .header .burger__box .contact__menu .contact__box .sociable__box .socible__img, .sections .header .burger__box .contact__menu .contact__box .sociable__box .socible__img, .section .header .burger__box .contact__menu .contact__box .sociable__box .socible__img {
+          .container .header .burger__box .contact__menu .contact__box .sociable__box .socible__img,
+          .sections .header .burger__box .contact__menu .contact__box .sociable__box .socible__img,
+          .section .header .burger__box .contact__menu .contact__box .sociable__box .socible__img {
             width: 35px;
             height: 35px;
             transition: 0.1s;
             position: relative;
             top: 140px; }
-          .container .header .burger__box .contact__menu .contact__box .sociable__box .socible__img:hover, .sections .header .burger__box .contact__menu .contact__box .sociable__box .socible__img:hover, .section .header .burger__box .contact__menu .contact__box .sociable__box .socible__img:hover {
+          .container .header .burger__box .contact__menu .contact__box .sociable__box .socible__img:hover,
+          .sections .header .burger__box .contact__menu .contact__box .sociable__box .socible__img:hover,
+          .section .header .burger__box .contact__menu .contact__box .sociable__box .socible__img:hover {
             margin-bottom: 10px;
             transform: rotate(-10deg); }
-          .container .header .burger__box .contact__menu .contact__box .sociable__box .sociable__margin, .sections .header .burger__box .contact__menu .contact__box .sociable__box .sociable__margin, .section .header .burger__box .contact__menu .contact__box .sociable__box .sociable__margin {
+          .container .header .burger__box .contact__menu .contact__box .sociable__box .sociable__margin,
+          .sections .header .burger__box .contact__menu .contact__box .sociable__box .sociable__margin,
+          .section .header .burger__box .contact__menu .contact__box .sociable__box .sociable__margin {
             margin-right: 25px; }
-        .container .header .burger__box .contact__menu .contact__box .sociable__box-active, .sections .header .burger__box .contact__menu .contact__box .sociable__box-active, .section .header .burger__box .contact__menu .contact__box .sociable__box-active {
+        .container .header .burger__box .contact__menu .contact__box .sociable__box-active,
+        .sections .header .burger__box .contact__menu .contact__box .sociable__box-active,
+        .section .header .burger__box .contact__menu .contact__box .sociable__box-active {
           animation-name: contact__box2;
           animation-duration: 0.5s;
           animation-iteration-count: 1;
@@ -2096,7 +2529,9 @@ html, body {
       -webkit-transform: translate3d(0, 0, 0);
       -ms-transform: translate3d(0, 0, 0);
       transform: translate3d(0, 0, 0); } }
-      .container .header .burger__box .contact__menu::before, .sections .header .burger__box .contact__menu::before, .section .header .burger__box .contact__menu::before {
+      .container .header .burger__box .contact__menu::before,
+      .sections .header .burger__box .contact__menu::before,
+      .section .header .burger__box .contact__menu::before {
         top: 0;
         right: 0;
         bottom: 0;
@@ -2105,7 +2540,7 @@ html, body {
         transition: 0.3s;
         width: 100%;
         height: 100%;
-        content: '';
+        content: "";
         position: absolute;
         -webkit-transform-origin: top right;
         -ms-transform-origin: top right;
@@ -2113,23 +2548,33 @@ html, body {
         -webkit-transform: scaleX(0.3826) scaleY(0.27);
         -ms-transform: scaleX(0.3826) scaleY(0.27);
         transform: scaleX(0.3826) scaleY(0.27); }
-    .container .header .burger__box .contact__menu-active, .sections .header .burger__box .contact__menu-active, .section .header .burger__box .contact__menu-active {
+    .container .header .burger__box .contact__menu-active,
+    .sections .header .burger__box .contact__menu-active,
+    .section .header .burger__box .contact__menu-active {
       width: 100%;
       height: 110vh;
       right: 0px;
       top: 0px;
       position: absolute; }
-      .container .header .burger__box .contact__menu-active .contact__box, .sections .header .burger__box .contact__menu-active .contact__box, .section .header .burger__box .contact__menu-active .contact__box {
+      .container .header .burger__box .contact__menu-active .contact__box,
+      .sections .header .burger__box .contact__menu-active .contact__box,
+      .section .header .burger__box .contact__menu-active .contact__box {
         opacity: 1; }
-      .container .header .burger__box .contact__menu-active::before, .sections .header .burger__box .contact__menu-active::before, .section .header .burger__box .contact__menu-active::before {
+      .container .header .burger__box .contact__menu-active::before,
+      .sections .header .burger__box .contact__menu-active::before,
+      .section .header .burger__box .contact__menu-active::before {
         transform: scaleX(1) scaleY(1.05);
         -ms-transform: scaleX(1) scaleY(1.05);
         -webkit-transform: scaleX(1) scaleY(1.05);
         box-shadow: 0px 4px 5px rgba(64, 26, 113, 0.25);
         background-color: #fff; }
-    .container .header .burger__box .contact__menu-non, .sections .header .burger__box .contact__menu-non, .section .header .burger__box .contact__menu-non {
+    .container .header .burger__box .contact__menu-non,
+    .sections .header .burger__box .contact__menu-non,
+    .section .header .burger__box .contact__menu-non {
       display: none; }
-      .container .header .burger__box .contact__menu-non::before, .sections .header .burger__box .contact__menu-non::before, .section .header .burger__box .contact__menu-non::before {
+      .container .header .burger__box .contact__menu-non::before,
+      .sections .header .burger__box .contact__menu-non::before,
+      .section .header .burger__box .contact__menu-non::before {
         -webkit-transform: scaleX(0.3826) scaleY(0.27);
         -ms-transform: scaleX(0.3826) scaleY(0.27);
         transform: scaleX(0.3826) scaleY(0.27);
@@ -2147,7 +2592,9 @@ html, body {
       -ms-transform: scaleX(0) scaleY(0);
       transform: scaleX(0) scaleY(0);
       opacity: 0; } }
-    .container .header .burger__box .burger, .sections .header .burger__box .burger, .section .header .burger__box .burger {
+    .container .header .burger__box .burger,
+    .sections .header .burger__box .burger,
+    .section .header .burger__box .burger {
       width: 2.78em;
       height: 1.7em;
       background: none;
@@ -2156,13 +2603,17 @@ html, body {
       top: 17px;
       cursor: pointer;
       z-index: 999; }
-      .container .header .burger__box .burger::before, .sections .header .burger__box .burger::before, .section .header .burger__box .burger::before {
-        content: '';
+      .container .header .burger__box .burger::before,
+      .sections .header .burger__box .burger::before,
+      .section .header .burger__box .burger::before {
+        content: "";
         width: 60%;
         height: 2px;
         top: 12px; }
-      .container .header .burger__box .burger::after, .sections .header .burger__box .burger::after, .section .header .burger__box .burger::after {
-        content: '';
+      .container .header .burger__box .burger::after,
+      .sections .header .burger__box .burger::after,
+      .section .header .burger__box .burger::after {
+        content: "";
         width: 100%;
         height: 2px;
         position: absolute;
@@ -2171,13 +2622,17 @@ html, body {
         -webkit-transform: rotate(0deg);
         -ms-transform: rotate(0deg);
         transform: rotate(0deg); }
-    .container .header .burger__box .burger__active::before, .sections .header .burger__box .burger__active::before, .section .header .burger__box .burger__active::before {
+    .container .header .burger__box .burger__active::before,
+    .sections .header .burger__box .burger__active::before,
+    .section .header .burger__box .burger__active::before {
       top: 0;
       width: 100%;
       -webkit-transform: rotate(-45deg);
       -ms-transform: rotate(-45deg);
       transform: rotate(-45deg); }
-    .container .header .burger__box .burger__active::after, .sections .header .burger__box .burger__active::after, .section .header .burger__box .burger__active::after {
+    .container .header .burger__box .burger__active::after,
+    .sections .header .burger__box .burger__active::after,
+    .section .header .burger__box .burger__active::after {
       -webkit-transform: rotate(45deg);
       -ms-transform: rotate(45deg);
       transform: rotate(45deg); }
@@ -2214,7 +2669,7 @@ html, body {
           font-size: 18px;
           line-height: 29px;
           letter-spacing: 0.04em;
-          color: #CCF381;
+          color: #ccf381;
           margin-top: 10px; }
           .footer .section__top .section__box .box__container .container__text::after {
             width: 30px;
@@ -2260,7 +2715,9 @@ html, body {
       -ms-transform: translate3d(0, 0, 0);
       transform: translate3d(0, 0, 0); } } }
 @media screen and (max-width: 650px) {
-  .container .header, .sections .header, .section .header {
+  .container .header,
+  .sections .header,
+  .section .header {
     width: 100%;
     height: 10vh;
     padding-left: 20px;
@@ -2270,26 +2727,34 @@ html, body {
     top: 40%;
     position: absolute;
     top: -1%; }
-    .container .header .header__logo, .sections .header .header__logo, .section .header .header__logo {
+    .container .header .header__logo,
+    .sections .header .header__logo,
+    .section .header .header__logo {
       font-size: 26px;
       line-height: 0px;
-      color: #4831D4;
+      color: #4831d4;
       user-select: none;
       cursor: pointer;
       position: relative;
       top: 5px;
       z-index: 99999; }
-      .container .header .header__logo .header__img, .sections .header .header__logo .header__img, .section .header .header__logo .header__img {
+      .container .header .header__logo .header__img,
+      .sections .header .header__logo .header__img,
+      .section .header .header__logo .header__img {
         width: 30px;
         height: 30px;
         position: relative;
         top: 15px;
         margin-left: -3px;
         margin-right: -3px; }
-      .container .header .header__logo .header__color, .sections .header .header__logo .header__color, .section .header .header__logo .header__color {
-        fill: #4831D4;
+      .container .header .header__logo .header__color,
+      .sections .header .header__logo .header__color,
+      .section .header .header__logo .header__color {
+        fill: #4831d4;
         transition: 1s; }
-    .container .header .first__logo-active, .sections .header .first__logo-active, .section .header .first__logo-active {
+    .container .header .first__logo-active,
+    .sections .header .first__logo-active,
+    .section .header .first__logo-active {
       animation-duration: 1s; }
   @keyframes first__logo {
     0% {
@@ -2298,7 +2763,9 @@ html, body {
     100% {
       position: relative;
       left: 0px; } }
-    .container .header .last__logo-active, .sections .header .last__logo-active, .section .header .last__logo-active {
+    .container .header .last__logo-active,
+    .sections .header .last__logo-active,
+    .section .header .last__logo-active {
       animation-duration: 1s; }
   @keyframes last__logo {
     0% {
@@ -2307,22 +2774,28 @@ html, body {
     100% {
       position: relative;
       right: 0px; } }
-    .container .header .burger__box .contact__menu, .sections .header .burger__box .contact__menu, .section .header .burger__box .contact__menu {
+    .container .header .burger__box .contact__menu,
+    .sections .header .burger__box .contact__menu,
+    .section .header .burger__box .contact__menu {
       position: absolute;
       -webkit-transition: opacity 0.4s, box-shadow 0.4s;
       transition: opacity 0.4s, box-shadow 0.4s;
       z-index: 998; }
-      .container .header .burger__box .contact__menu .contact__box, .sections .header .burger__box .contact__menu .contact__box, .section .header .burger__box .contact__menu .contact__box {
+      .container .header .burger__box .contact__menu .contact__box,
+      .sections .header .burger__box .contact__menu .contact__box,
+      .section .header .burger__box .contact__menu .contact__box {
         width: 100%;
         height: 100%;
         padding-top: 20%;
         padding-left: 55px; }
-        .container .header .burger__box .contact__menu .contact__box .contact__box1 .contact__text, .sections .header .burger__box .contact__menu .contact__box .contact__box1 .contact__text, .section .header .burger__box .contact__menu .contact__box .contact__box1 .contact__text {
+        .container .header .burger__box .contact__menu .contact__box .contact__box1 .contact__text,
+        .sections .header .burger__box .contact__menu .contact__box .contact__box1 .contact__text,
+        .section .header .burger__box .contact__menu .contact__box .contact__box1 .contact__text {
           z-index: 9999;
           font-size: 20px;
           line-height: 29px;
           letter-spacing: 0.04em;
-          color: #4831D4;
+          color: #4831d4;
           cursor: pointer;
           margin-top: 5px;
           -webkit-text-decoration: none;
@@ -2333,7 +2806,9 @@ html, body {
           -webkit-transition-property: opacity, color, background-color, transform, border;
           transition-property: opacity, color, background-color, transform, border;
           position: relative; }
-          .container .header .burger__box .contact__menu .contact__box .contact__box1 .contact__text::after, .sections .header .burger__box .contact__menu .contact__box .contact__box1 .contact__text::after, .section .header .burger__box .contact__menu .contact__box .contact__box1 .contact__text::after {
+          .container .header .burger__box .contact__menu .contact__box .contact__box1 .contact__text::after,
+          .sections .header .burger__box .contact__menu .contact__box .contact__box1 .contact__text::after,
+          .section .header .burger__box .contact__menu .contact__box .contact__box1 .contact__text::after {
             top: 0;
             right: 0;
             bottom: 0;
@@ -2342,10 +2817,12 @@ html, body {
             transition: 0.3s;
             width: 30px;
             height: 100%;
-            content: '';
+            content: "";
             position: absolute;
             left: 100%; }
-        .container .header .burger__box .contact__menu .contact__box .contact__box1 .contact__text:hover:after, .sections .header .burger__box .contact__menu .contact__box .contact__box1 .contact__text:hover:after, .section .header .burger__box .contact__menu .contact__box .contact__box1 .contact__text:hover:after {
+        .container .header .burger__box .contact__menu .contact__box .contact__box1 .contact__text:hover:after,
+        .sections .header .burger__box .contact__menu .contact__box .contact__box1 .contact__text:hover:after,
+        .section .header .burger__box .contact__menu .contact__box .contact__box1 .contact__text:hover:after {
           top: 0;
           right: 0;
           bottom: 0;
@@ -2354,14 +2831,16 @@ html, body {
           transition: 0.3s;
           width: 30px;
           height: 100%;
-          content: '';
+          content: "";
           position: absolute;
           -webkit-transform-origin: right;
           -ms-transform-origin: right;
           transform-origin: right;
           background-color: rgba(72, 49, 212, 0.1);
           opacity: 1; }
-        .container .header .burger__box .contact__menu .contact__box .contact__box-active, .sections .header .burger__box .contact__menu .contact__box .contact__box-active, .section .header .burger__box .contact__menu .contact__box .contact__box-active {
+        .container .header .burger__box .contact__menu .contact__box .contact__box-active,
+        .sections .header .burger__box .contact__menu .contact__box .contact__box-active,
+        .section .header .burger__box .contact__menu .contact__box .contact__box-active {
           animation-duration: 0.5s; }
   @keyframes contact__box {
     0% {
@@ -2374,24 +2853,30 @@ html, body {
       -webkit-transform: translate3d(0, 0, 0);
       -ms-transform: translate3d(0, 0, 0);
       transform: translate3d(0, 0, 0); } }
-        .container .header .burger__box .contact__menu .contact__box .contact__box2, .sections .header .burger__box .contact__menu .contact__box .contact__box2, .section .header .burger__box .contact__menu .contact__box .contact__box2 {
+        .container .header .burger__box .contact__menu .contact__box .contact__box2,
+        .sections .header .burger__box .contact__menu .contact__box .contact__box2,
+        .section .header .burger__box .contact__menu .contact__box .contact__box2 {
           opacity: 0;
           display: flex;
           flex-direction: column; }
-          .container .header .burger__box .contact__menu .contact__box .contact__box2 .contact__text2, .sections .header .burger__box .contact__menu .contact__box .contact__box2 .contact__text2, .section .header .burger__box .contact__menu .contact__box .contact__box2 .contact__text2 {
+          .container .header .burger__box .contact__menu .contact__box .contact__box2 .contact__text2,
+          .sections .header .burger__box .contact__menu .contact__box .contact__box2 .contact__text2,
+          .section .header .burger__box .contact__menu .contact__box .contact__box2 .contact__text2 {
             font-size: 24px;
             line-height: 29px;
             cursor: pointer;
             margin-top: 70px; }
-          .container .header .burger__box .contact__menu .contact__box .contact__box2 .contact__text, .sections .header .burger__box .contact__menu .contact__box .contact__box2 .contact__text, .section .header .burger__box .contact__menu .contact__box .contact__box2 .contact__text {
+          .container .header .burger__box .contact__menu .contact__box .contact__box2 .contact__text,
+          .sections .header .burger__box .contact__menu .contact__box .contact__box2 .contact__text,
+          .section .header .burger__box .contact__menu .contact__box .contact__box2 .contact__text {
             z-index: 9999;
-            font-family: 'SF UI Text';
+            font-family: "SF UI Text";
             font-style: normal;
             font-weight: 500;
             font-size: 20px;
             line-height: 29px;
             letter-spacing: 0.04em;
-            color: #4831D4;
+            color: #4831d4;
             cursor: pointer;
             -webkit-text-decoration: none;
             text-decoration: none;
@@ -2401,7 +2886,9 @@ html, body {
             -webkit-transition-property: opacity, color, background-color, transform, border;
             transition-property: opacity, color, background-color, transform, border;
             position: relative; }
-            .container .header .burger__box .contact__menu .contact__box .contact__box2 .contact__text::after, .sections .header .burger__box .contact__menu .contact__box .contact__box2 .contact__text::after, .section .header .burger__box .contact__menu .contact__box .contact__box2 .contact__text::after {
+            .container .header .burger__box .contact__menu .contact__box .contact__box2 .contact__text::after,
+            .sections .header .burger__box .contact__menu .contact__box .contact__box2 .contact__text::after,
+            .section .header .burger__box .contact__menu .contact__box .contact__box2 .contact__text::after {
               top: 0;
               right: 0;
               bottom: 0;
@@ -2410,7 +2897,7 @@ html, body {
               transition: 0.3s;
               width: 30px;
               height: 100%;
-              content: '';
+              content: "";
               position: absolute;
               left: 100%;
               -webkit-transform-origin: right;
@@ -2418,7 +2905,9 @@ html, body {
               transform-origin: right;
               background-color: rgba(255, 255, 255, 0.3);
               opacity: 0; }
-          .container .header .burger__box .contact__menu .contact__box .contact__box2 .contact__text:hover:after, .sections .header .burger__box .contact__menu .contact__box .contact__box2 .contact__text:hover:after, .section .header .burger__box .contact__menu .contact__box .contact__box2 .contact__text:hover:after {
+          .container .header .burger__box .contact__menu .contact__box .contact__box2 .contact__text:hover:after,
+          .sections .header .burger__box .contact__menu .contact__box .contact__box2 .contact__text:hover:after,
+          .section .header .burger__box .contact__menu .contact__box .contact__box2 .contact__text:hover:after {
             top: 0;
             right: 0;
             bottom: 0;
@@ -2427,20 +2916,26 @@ html, body {
             transition: 0.3s;
             width: 30px;
             height: 100%;
-            content: '';
+            content: "";
             position: absolute;
             -webkit-transform-origin: right;
             -ms-transform-origin: right;
             transform-origin: right;
             background-color: rgba(72, 49, 212, 0.1);
             opacity: 1; }
-          .container .header .burger__box .contact__menu .contact__box .contact__box2 .contact__margin, .sections .header .burger__box .contact__menu .contact__box .contact__box2 .contact__margin, .section .header .burger__box .contact__menu .contact__box .contact__box2 .contact__margin {
+          .container .header .burger__box .contact__menu .contact__box .contact__box2 .contact__margin,
+          .sections .header .burger__box .contact__menu .contact__box .contact__box2 .contact__margin,
+          .section .header .burger__box .contact__menu .contact__box .contact__box2 .contact__margin {
             position: relative;
             top: 20px; }
-          .container .header .burger__box .contact__menu .contact__box .contact__box2 .contact__margin2, .sections .header .burger__box .contact__menu .contact__box .contact__box2 .contact__margin2, .section .header .burger__box .contact__menu .contact__box .contact__box2 .contact__margin2 {
+          .container .header .burger__box .contact__menu .contact__box .contact__box2 .contact__margin2,
+          .sections .header .burger__box .contact__menu .contact__box .contact__box2 .contact__margin2,
+          .section .header .burger__box .contact__menu .contact__box .contact__box2 .contact__margin2 {
             position: relative;
             top: 30px; }
-        .container .header .burger__box .contact__menu .contact__box .contact2__box-active, .sections .header .burger__box .contact__menu .contact__box .contact2__box-active, .section .header .burger__box .contact__menu .contact__box .contact2__box-active {
+        .container .header .burger__box .contact__menu .contact__box .contact2__box-active,
+        .sections .header .burger__box .contact__menu .contact__box .contact2__box-active,
+        .section .header .burger__box .contact__menu .contact__box .contact2__box-active {
           animation-name: contact__box2;
           animation-duration: 0.5s;
           animation-iteration-count: 1;
@@ -2456,23 +2951,33 @@ html, body {
       -webkit-transform: translate3d(0, 0, 0);
       -ms-transform: translate3d(0, 0, 0);
       transform: translate3d(0, 0, 0); } }
-        .container .header .burger__box .contact__menu .contact__box .sociable__box, .sections .header .burger__box .contact__menu .contact__box .sociable__box, .section .header .burger__box .contact__menu .contact__box .sociable__box {
+        .container .header .burger__box .contact__menu .contact__box .sociable__box,
+        .sections .header .burger__box .contact__menu .contact__box .sociable__box,
+        .section .header .burger__box .contact__menu .contact__box .sociable__box {
           display: flex;
           height: 40px;
           align-items: center;
           opacity: 0; }
-          .container .header .burger__box .contact__menu .contact__box .sociable__box .socible__img, .sections .header .burger__box .contact__menu .contact__box .sociable__box .socible__img, .section .header .burger__box .contact__menu .contact__box .sociable__box .socible__img {
+          .container .header .burger__box .contact__menu .contact__box .sociable__box .socible__img,
+          .sections .header .burger__box .contact__menu .contact__box .sociable__box .socible__img,
+          .section .header .burger__box .contact__menu .contact__box .sociable__box .socible__img {
             width: 35px;
             height: 35px;
             transition: 0.1s;
             position: relative;
             top: 140px; }
-          .container .header .burger__box .contact__menu .contact__box .sociable__box .socible__img:hover, .sections .header .burger__box .contact__menu .contact__box .sociable__box .socible__img:hover, .section .header .burger__box .contact__menu .contact__box .sociable__box .socible__img:hover {
+          .container .header .burger__box .contact__menu .contact__box .sociable__box .socible__img:hover,
+          .sections .header .burger__box .contact__menu .contact__box .sociable__box .socible__img:hover,
+          .section .header .burger__box .contact__menu .contact__box .sociable__box .socible__img:hover {
             margin-bottom: 10px;
             transform: rotate(-10deg); }
-          .container .header .burger__box .contact__menu .contact__box .sociable__box .sociable__margin, .sections .header .burger__box .contact__menu .contact__box .sociable__box .sociable__margin, .section .header .burger__box .contact__menu .contact__box .sociable__box .sociable__margin {
+          .container .header .burger__box .contact__menu .contact__box .sociable__box .sociable__margin,
+          .sections .header .burger__box .contact__menu .contact__box .sociable__box .sociable__margin,
+          .section .header .burger__box .contact__menu .contact__box .sociable__box .sociable__margin {
             margin-right: 25px; }
-        .container .header .burger__box .contact__menu .contact__box .sociable__box-active, .sections .header .burger__box .contact__menu .contact__box .sociable__box-active, .section .header .burger__box .contact__menu .contact__box .sociable__box-active {
+        .container .header .burger__box .contact__menu .contact__box .sociable__box-active,
+        .sections .header .burger__box .contact__menu .contact__box .sociable__box-active,
+        .section .header .burger__box .contact__menu .contact__box .sociable__box-active {
           animation-name: contact__box2;
           animation-duration: 0.5s;
           animation-iteration-count: 1;
@@ -2488,7 +2993,9 @@ html, body {
       -webkit-transform: translate3d(0, 0, 0);
       -ms-transform: translate3d(0, 0, 0);
       transform: translate3d(0, 0, 0); } }
-      .container .header .burger__box .contact__menu::before, .sections .header .burger__box .contact__menu::before, .section .header .burger__box .contact__menu::before {
+      .container .header .burger__box .contact__menu::before,
+      .sections .header .burger__box .contact__menu::before,
+      .section .header .burger__box .contact__menu::before {
         top: 0;
         right: 0;
         bottom: 0;
@@ -2497,7 +3004,7 @@ html, body {
         transition: 0.3s;
         width: 100%;
         height: 100%;
-        content: '';
+        content: "";
         position: absolute;
         -webkit-transform-origin: top right;
         -ms-transform-origin: top right;
@@ -2505,23 +3012,33 @@ html, body {
         -webkit-transform: scaleX(0.3826) scaleY(0.27);
         -ms-transform: scaleX(0.3826) scaleY(0.27);
         transform: scaleX(0.3826) scaleY(0.27); }
-    .container .header .burger__box .contact__menu-active, .sections .header .burger__box .contact__menu-active, .section .header .burger__box .contact__menu-active {
+    .container .header .burger__box .contact__menu-active,
+    .sections .header .burger__box .contact__menu-active,
+    .section .header .burger__box .contact__menu-active {
       width: 100%;
       height: 110vh;
       right: 0px;
       top: 0px;
       position: absolute; }
-      .container .header .burger__box .contact__menu-active .contact__box, .sections .header .burger__box .contact__menu-active .contact__box, .section .header .burger__box .contact__menu-active .contact__box {
+      .container .header .burger__box .contact__menu-active .contact__box,
+      .sections .header .burger__box .contact__menu-active .contact__box,
+      .section .header .burger__box .contact__menu-active .contact__box {
         opacity: 1; }
-      .container .header .burger__box .contact__menu-active::before, .sections .header .burger__box .contact__menu-active::before, .section .header .burger__box .contact__menu-active::before {
+      .container .header .burger__box .contact__menu-active::before,
+      .sections .header .burger__box .contact__menu-active::before,
+      .section .header .burger__box .contact__menu-active::before {
         transform: scaleX(1) scaleY(1.05);
         -ms-transform: scaleX(1) scaleY(1.05);
         -webkit-transform: scaleX(1) scaleY(1.05);
         box-shadow: 0px 4px 5px rgba(64, 26, 113, 0.25);
         background-color: #fff; }
-    .container .header .burger__box .contact__menu-non, .sections .header .burger__box .contact__menu-non, .section .header .burger__box .contact__menu-non {
+    .container .header .burger__box .contact__menu-non,
+    .sections .header .burger__box .contact__menu-non,
+    .section .header .burger__box .contact__menu-non {
       display: none; }
-      .container .header .burger__box .contact__menu-non::before, .sections .header .burger__box .contact__menu-non::before, .section .header .burger__box .contact__menu-non::before {
+      .container .header .burger__box .contact__menu-non::before,
+      .sections .header .burger__box .contact__menu-non::before,
+      .section .header .burger__box .contact__menu-non::before {
         -webkit-transform: scaleX(0.3826) scaleY(0.27);
         -ms-transform: scaleX(0.3826) scaleY(0.27);
         transform: scaleX(0.3826) scaleY(0.27);
@@ -2539,7 +3056,9 @@ html, body {
       -ms-transform: scaleX(0) scaleY(0);
       transform: scaleX(0) scaleY(0);
       opacity: 0; } }
-    .container .header .burger__box .burger, .sections .header .burger__box .burger, .section .header .burger__box .burger {
+    .container .header .burger__box .burger,
+    .sections .header .burger__box .burger,
+    .section .header .burger__box .burger {
       width: 2.78em;
       height: 1.7em;
       background: none;
@@ -2548,13 +3067,17 @@ html, body {
       top: 17px;
       cursor: pointer;
       z-index: 999; }
-      .container .header .burger__box .burger::before, .sections .header .burger__box .burger::before, .section .header .burger__box .burger::before {
-        content: '';
+      .container .header .burger__box .burger::before,
+      .sections .header .burger__box .burger::before,
+      .section .header .burger__box .burger::before {
+        content: "";
         width: 60%;
         height: 2px;
         top: 12px; }
-      .container .header .burger__box .burger::after, .sections .header .burger__box .burger::after, .section .header .burger__box .burger::after {
-        content: '';
+      .container .header .burger__box .burger::after,
+      .sections .header .burger__box .burger::after,
+      .section .header .burger__box .burger::after {
+        content: "";
         width: 100%;
         height: 2px;
         position: absolute;
@@ -2563,13 +3086,17 @@ html, body {
         -webkit-transform: rotate(0deg);
         -ms-transform: rotate(0deg);
         transform: rotate(0deg); }
-    .container .header .burger__box .burger__active::before, .sections .header .burger__box .burger__active::before, .section .header .burger__box .burger__active::before {
+    .container .header .burger__box .burger__active::before,
+    .sections .header .burger__box .burger__active::before,
+    .section .header .burger__box .burger__active::before {
       top: 0;
       width: 100%;
       -webkit-transform: rotate(-45deg);
       -ms-transform: rotate(-45deg);
       transform: rotate(-45deg); }
-    .container .header .burger__box .burger__active::after, .sections .header .burger__box .burger__active::after, .section .header .burger__box .burger__active::after {
+    .container .header .burger__box .burger__active::after,
+    .sections .header .burger__box .burger__active::after,
+    .section .header .burger__box .burger__active::after {
       -webkit-transform: rotate(45deg);
       -ms-transform: rotate(45deg);
       transform: rotate(45deg); }
@@ -2603,7 +3130,7 @@ html, body {
             font-size: 18px;
             line-height: 29px;
             letter-spacing: 0.04em;
-            color: #CCF381;
+            color: #ccf381;
             margin-top: 10px;
             text-align: center; }
             .footer .section__top .section__box .box__container .container__text::after {
@@ -2651,10 +3178,16 @@ html, body {
       -ms-transform: translate3d(0, 0, 0);
       transform: translate3d(0, 0, 0); } } }
 @media screen and (max-width: 530px) {
-  html, body {
+  html,
+  body {
     overflow-x: hidden; }
 
-  .container .header, .sections .header, .section .header {
+  .section0 .section__container .container__buttons-button {
+    width: 100%; }
+
+  .container .header,
+  .sections .header,
+  .section .header {
     width: 100%;
     height: 10vh;
     padding-left: 20px;
@@ -2664,26 +3197,34 @@ html, body {
     top: 40%;
     position: absolute;
     top: -1%; }
-    .container .header .header__logo, .sections .header .header__logo, .section .header .header__logo {
+    .container .header .header__logo,
+    .sections .header .header__logo,
+    .section .header .header__logo {
       font-size: 26px;
       line-height: 0px;
-      color: #4831D4;
+      color: #4831d4;
       user-select: none;
       cursor: pointer;
       position: relative;
       top: 5px;
       z-index: 99999; }
-      .container .header .header__logo .header__img, .sections .header .header__logo .header__img, .section .header .header__logo .header__img {
+      .container .header .header__logo .header__img,
+      .sections .header .header__logo .header__img,
+      .section .header .header__logo .header__img {
         width: 30px;
         height: 30px;
         position: relative;
         top: 15px;
         margin-left: -3px;
         margin-right: -3px; }
-      .container .header .header__logo .header__color, .sections .header .header__logo .header__color, .section .header .header__logo .header__color {
-        fill: #4831D4;
+      .container .header .header__logo .header__color,
+      .sections .header .header__logo .header__color,
+      .section .header .header__logo .header__color {
+        fill: #4831d4;
         transition: 1s; }
-    .container .header .first__logo-active, .sections .header .first__logo-active, .section .header .first__logo-active {
+    .container .header .first__logo-active,
+    .sections .header .first__logo-active,
+    .section .header .first__logo-active {
       animation-duration: 1s; }
   @keyframes first__logo {
     0% {
@@ -2692,7 +3233,9 @@ html, body {
     100% {
       position: relative;
       left: 0px; } }
-    .container .header .last__logo-active, .sections .header .last__logo-active, .section .header .last__logo-active {
+    .container .header .last__logo-active,
+    .sections .header .last__logo-active,
+    .section .header .last__logo-active {
       animation-duration: 1s; }
   @keyframes last__logo {
     0% {
@@ -2701,22 +3244,28 @@ html, body {
     100% {
       position: relative;
       right: 0px; } }
-    .container .header .burger__box .contact__menu, .sections .header .burger__box .contact__menu, .section .header .burger__box .contact__menu {
+    .container .header .burger__box .contact__menu,
+    .sections .header .burger__box .contact__menu,
+    .section .header .burger__box .contact__menu {
       position: absolute;
       -webkit-transition: opacity 0.4s, box-shadow 0.4s;
       transition: opacity 0.4s, box-shadow 0.4s;
       z-index: 998; }
-      .container .header .burger__box .contact__menu .contact__box, .sections .header .burger__box .contact__menu .contact__box, .section .header .burger__box .contact__menu .contact__box {
+      .container .header .burger__box .contact__menu .contact__box,
+      .sections .header .burger__box .contact__menu .contact__box,
+      .section .header .burger__box .contact__menu .contact__box {
         width: 100%;
         height: 100%;
         padding-top: 35%;
         padding-left: 40px; }
-        .container .header .burger__box .contact__menu .contact__box .contact__box1 .contact__text, .sections .header .burger__box .contact__menu .contact__box .contact__box1 .contact__text, .section .header .burger__box .contact__menu .contact__box .contact__box1 .contact__text {
+        .container .header .burger__box .contact__menu .contact__box .contact__box1 .contact__text,
+        .sections .header .burger__box .contact__menu .contact__box .contact__box1 .contact__text,
+        .section .header .burger__box .contact__menu .contact__box .contact__box1 .contact__text {
           z-index: 9999;
           font-size: 20px;
           line-height: 29px;
           letter-spacing: 0.04em;
-          color: #4831D4;
+          color: #4831d4;
           cursor: pointer;
           margin-top: 5px;
           -webkit-text-decoration: none;
@@ -2727,7 +3276,9 @@ html, body {
           -webkit-transition-property: opacity, color, background-color, transform, border;
           transition-property: opacity, color, background-color, transform, border;
           position: relative; }
-          .container .header .burger__box .contact__menu .contact__box .contact__box1 .contact__text::after, .sections .header .burger__box .contact__menu .contact__box .contact__box1 .contact__text::after, .section .header .burger__box .contact__menu .contact__box .contact__box1 .contact__text::after {
+          .container .header .burger__box .contact__menu .contact__box .contact__box1 .contact__text::after,
+          .sections .header .burger__box .contact__menu .contact__box .contact__box1 .contact__text::after,
+          .section .header .burger__box .contact__menu .contact__box .contact__box1 .contact__text::after {
             top: 0;
             right: 0;
             bottom: 0;
@@ -2736,10 +3287,12 @@ html, body {
             transition: 0.3s;
             width: 30px;
             height: 100%;
-            content: '';
+            content: "";
             position: absolute;
             left: 100%; }
-        .container .header .burger__box .contact__menu .contact__box .contact__box1 .contact__text:hover:after, .sections .header .burger__box .contact__menu .contact__box .contact__box1 .contact__text:hover:after, .section .header .burger__box .contact__menu .contact__box .contact__box1 .contact__text:hover:after {
+        .container .header .burger__box .contact__menu .contact__box .contact__box1 .contact__text:hover:after,
+        .sections .header .burger__box .contact__menu .contact__box .contact__box1 .contact__text:hover:after,
+        .section .header .burger__box .contact__menu .contact__box .contact__box1 .contact__text:hover:after {
           top: 0;
           right: 0;
           bottom: 0;
@@ -2748,14 +3301,16 @@ html, body {
           transition: 0.3s;
           width: 30px;
           height: 100%;
-          content: '';
+          content: "";
           position: absolute;
           -webkit-transform-origin: right;
           -ms-transform-origin: right;
           transform-origin: right;
           background-color: rgba(72, 49, 212, 0.1);
           opacity: 1; }
-        .container .header .burger__box .contact__menu .contact__box .contact__box-active, .sections .header .burger__box .contact__menu .contact__box .contact__box-active, .section .header .burger__box .contact__menu .contact__box .contact__box-active {
+        .container .header .burger__box .contact__menu .contact__box .contact__box-active,
+        .sections .header .burger__box .contact__menu .contact__box .contact__box-active,
+        .section .header .burger__box .contact__menu .contact__box .contact__box-active {
           animation-duration: 0.5s; }
   @keyframes contact__box {
     0% {
@@ -2768,24 +3323,30 @@ html, body {
       -webkit-transform: translate3d(0, 0, 0);
       -ms-transform: translate3d(0, 0, 0);
       transform: translate3d(0, 0, 0); } }
-        .container .header .burger__box .contact__menu .contact__box .contact__box2, .sections .header .burger__box .contact__menu .contact__box .contact__box2, .section .header .burger__box .contact__menu .contact__box .contact__box2 {
+        .container .header .burger__box .contact__menu .contact__box .contact__box2,
+        .sections .header .burger__box .contact__menu .contact__box .contact__box2,
+        .section .header .burger__box .contact__menu .contact__box .contact__box2 {
           opacity: 0;
           display: flex;
           flex-direction: column; }
-          .container .header .burger__box .contact__menu .contact__box .contact__box2 .contact__text2, .sections .header .burger__box .contact__menu .contact__box .contact__box2 .contact__text2, .section .header .burger__box .contact__menu .contact__box .contact__box2 .contact__text2 {
+          .container .header .burger__box .contact__menu .contact__box .contact__box2 .contact__text2,
+          .sections .header .burger__box .contact__menu .contact__box .contact__box2 .contact__text2,
+          .section .header .burger__box .contact__menu .contact__box .contact__box2 .contact__text2 {
             font-size: 24px;
             line-height: 29px;
             cursor: pointer;
             margin-top: 70px; }
-          .container .header .burger__box .contact__menu .contact__box .contact__box2 .contact__text, .sections .header .burger__box .contact__menu .contact__box .contact__box2 .contact__text, .section .header .burger__box .contact__menu .contact__box .contact__box2 .contact__text {
+          .container .header .burger__box .contact__menu .contact__box .contact__box2 .contact__text,
+          .sections .header .burger__box .contact__menu .contact__box .contact__box2 .contact__text,
+          .section .header .burger__box .contact__menu .contact__box .contact__box2 .contact__text {
             z-index: 9999;
-            font-family: 'SF UI Text';
+            font-family: "SF UI Text";
             font-style: normal;
             font-weight: 500;
             font-size: 20px;
             line-height: 29px;
             letter-spacing: 0.04em;
-            color: #4831D4;
+            color: #4831d4;
             cursor: pointer;
             -webkit-text-decoration: none;
             text-decoration: none;
@@ -2795,7 +3356,9 @@ html, body {
             -webkit-transition-property: opacity, color, background-color, transform, border;
             transition-property: opacity, color, background-color, transform, border;
             position: relative; }
-            .container .header .burger__box .contact__menu .contact__box .contact__box2 .contact__text::after, .sections .header .burger__box .contact__menu .contact__box .contact__box2 .contact__text::after, .section .header .burger__box .contact__menu .contact__box .contact__box2 .contact__text::after {
+            .container .header .burger__box .contact__menu .contact__box .contact__box2 .contact__text::after,
+            .sections .header .burger__box .contact__menu .contact__box .contact__box2 .contact__text::after,
+            .section .header .burger__box .contact__menu .contact__box .contact__box2 .contact__text::after {
               top: 0;
               right: 0;
               bottom: 0;
@@ -2804,7 +3367,7 @@ html, body {
               transition: 0.3s;
               width: 30px;
               height: 100%;
-              content: '';
+              content: "";
               position: absolute;
               left: 100%;
               -webkit-transform-origin: right;
@@ -2812,7 +3375,9 @@ html, body {
               transform-origin: right;
               background-color: rgba(255, 255, 255, 0.3);
               opacity: 0; }
-          .container .header .burger__box .contact__menu .contact__box .contact__box2 .contact__text:hover:after, .sections .header .burger__box .contact__menu .contact__box .contact__box2 .contact__text:hover:after, .section .header .burger__box .contact__menu .contact__box .contact__box2 .contact__text:hover:after {
+          .container .header .burger__box .contact__menu .contact__box .contact__box2 .contact__text:hover:after,
+          .sections .header .burger__box .contact__menu .contact__box .contact__box2 .contact__text:hover:after,
+          .section .header .burger__box .contact__menu .contact__box .contact__box2 .contact__text:hover:after {
             top: 0;
             right: 0;
             bottom: 0;
@@ -2821,20 +3386,26 @@ html, body {
             transition: 0.3s;
             width: 30px;
             height: 100%;
-            content: '';
+            content: "";
             position: absolute;
             -webkit-transform-origin: right;
             -ms-transform-origin: right;
             transform-origin: right;
             background-color: rgba(72, 49, 212, 0.1);
             opacity: 1; }
-          .container .header .burger__box .contact__menu .contact__box .contact__box2 .contact__margin, .sections .header .burger__box .contact__menu .contact__box .contact__box2 .contact__margin, .section .header .burger__box .contact__menu .contact__box .contact__box2 .contact__margin {
+          .container .header .burger__box .contact__menu .contact__box .contact__box2 .contact__margin,
+          .sections .header .burger__box .contact__menu .contact__box .contact__box2 .contact__margin,
+          .section .header .burger__box .contact__menu .contact__box .contact__box2 .contact__margin {
             position: relative;
             top: 20px; }
-          .container .header .burger__box .contact__menu .contact__box .contact__box2 .contact__margin2, .sections .header .burger__box .contact__menu .contact__box .contact__box2 .contact__margin2, .section .header .burger__box .contact__menu .contact__box .contact__box2 .contact__margin2 {
+          .container .header .burger__box .contact__menu .contact__box .contact__box2 .contact__margin2,
+          .sections .header .burger__box .contact__menu .contact__box .contact__box2 .contact__margin2,
+          .section .header .burger__box .contact__menu .contact__box .contact__box2 .contact__margin2 {
             position: relative;
             top: 30px; }
-        .container .header .burger__box .contact__menu .contact__box .contact2__box-active, .sections .header .burger__box .contact__menu .contact__box .contact2__box-active, .section .header .burger__box .contact__menu .contact__box .contact2__box-active {
+        .container .header .burger__box .contact__menu .contact__box .contact2__box-active,
+        .sections .header .burger__box .contact__menu .contact__box .contact2__box-active,
+        .section .header .burger__box .contact__menu .contact__box .contact2__box-active {
           animation-name: contact__box2;
           animation-duration: 0.5s;
           animation-iteration-count: 1;
@@ -2850,23 +3421,33 @@ html, body {
       -webkit-transform: translate3d(0, 0, 0);
       -ms-transform: translate3d(0, 0, 0);
       transform: translate3d(0, 0, 0); } }
-        .container .header .burger__box .contact__menu .contact__box .sociable__box, .sections .header .burger__box .contact__menu .contact__box .sociable__box, .section .header .burger__box .contact__menu .contact__box .sociable__box {
+        .container .header .burger__box .contact__menu .contact__box .sociable__box,
+        .sections .header .burger__box .contact__menu .contact__box .sociable__box,
+        .section .header .burger__box .contact__menu .contact__box .sociable__box {
           display: flex;
           height: 40px;
           align-items: center;
           opacity: 0; }
-          .container .header .burger__box .contact__menu .contact__box .sociable__box .socible__img, .sections .header .burger__box .contact__menu .contact__box .sociable__box .socible__img, .section .header .burger__box .contact__menu .contact__box .sociable__box .socible__img {
+          .container .header .burger__box .contact__menu .contact__box .sociable__box .socible__img,
+          .sections .header .burger__box .contact__menu .contact__box .sociable__box .socible__img,
+          .section .header .burger__box .contact__menu .contact__box .sociable__box .socible__img {
             width: 35px;
             height: 35px;
             transition: 0.1s;
             position: relative;
             top: 140px; }
-          .container .header .burger__box .contact__menu .contact__box .sociable__box .socible__img:hover, .sections .header .burger__box .contact__menu .contact__box .sociable__box .socible__img:hover, .section .header .burger__box .contact__menu .contact__box .sociable__box .socible__img:hover {
+          .container .header .burger__box .contact__menu .contact__box .sociable__box .socible__img:hover,
+          .sections .header .burger__box .contact__menu .contact__box .sociable__box .socible__img:hover,
+          .section .header .burger__box .contact__menu .contact__box .sociable__box .socible__img:hover {
             margin-bottom: 10px;
             transform: rotate(-10deg); }
-          .container .header .burger__box .contact__menu .contact__box .sociable__box .sociable__margin, .sections .header .burger__box .contact__menu .contact__box .sociable__box .sociable__margin, .section .header .burger__box .contact__menu .contact__box .sociable__box .sociable__margin {
+          .container .header .burger__box .contact__menu .contact__box .sociable__box .sociable__margin,
+          .sections .header .burger__box .contact__menu .contact__box .sociable__box .sociable__margin,
+          .section .header .burger__box .contact__menu .contact__box .sociable__box .sociable__margin {
             margin-right: 25px; }
-        .container .header .burger__box .contact__menu .contact__box .sociable__box-active, .sections .header .burger__box .contact__menu .contact__box .sociable__box-active, .section .header .burger__box .contact__menu .contact__box .sociable__box-active {
+        .container .header .burger__box .contact__menu .contact__box .sociable__box-active,
+        .sections .header .burger__box .contact__menu .contact__box .sociable__box-active,
+        .section .header .burger__box .contact__menu .contact__box .sociable__box-active {
           animation-name: contact__box2;
           animation-duration: 0.5s;
           animation-iteration-count: 1;
@@ -2882,7 +3463,9 @@ html, body {
       -webkit-transform: translate3d(0, 0, 0);
       -ms-transform: translate3d(0, 0, 0);
       transform: translate3d(0, 0, 0); } }
-      .container .header .burger__box .contact__menu::before, .sections .header .burger__box .contact__menu::before, .section .header .burger__box .contact__menu::before {
+      .container .header .burger__box .contact__menu::before,
+      .sections .header .burger__box .contact__menu::before,
+      .section .header .burger__box .contact__menu::before {
         top: 0;
         right: 0;
         bottom: 0;
@@ -2891,7 +3474,7 @@ html, body {
         transition: 0.3s;
         width: 100%;
         height: 100%;
-        content: '';
+        content: "";
         position: absolute;
         -webkit-transform-origin: top right;
         -ms-transform-origin: top right;
@@ -2899,23 +3482,33 @@ html, body {
         -webkit-transform: scaleX(0.3826) scaleY(0.27);
         -ms-transform: scaleX(0.3826) scaleY(0.27);
         transform: scaleX(0.3826) scaleY(0.27); }
-    .container .header .burger__box .contact__menu-active, .sections .header .burger__box .contact__menu-active, .section .header .burger__box .contact__menu-active {
+    .container .header .burger__box .contact__menu-active,
+    .sections .header .burger__box .contact__menu-active,
+    .section .header .burger__box .contact__menu-active {
       width: 100%;
       height: 110vh;
       right: 0px;
       top: 0px;
       position: absolute; }
-      .container .header .burger__box .contact__menu-active .contact__box, .sections .header .burger__box .contact__menu-active .contact__box, .section .header .burger__box .contact__menu-active .contact__box {
+      .container .header .burger__box .contact__menu-active .contact__box,
+      .sections .header .burger__box .contact__menu-active .contact__box,
+      .section .header .burger__box .contact__menu-active .contact__box {
         opacity: 1; }
-      .container .header .burger__box .contact__menu-active::before, .sections .header .burger__box .contact__menu-active::before, .section .header .burger__box .contact__menu-active::before {
+      .container .header .burger__box .contact__menu-active::before,
+      .sections .header .burger__box .contact__menu-active::before,
+      .section .header .burger__box .contact__menu-active::before {
         transform: scaleX(1) scaleY(1.05);
         -ms-transform: scaleX(1) scaleY(1.05);
         -webkit-transform: scaleX(1) scaleY(1.05);
         box-shadow: 0px 4px 5px rgba(64, 26, 113, 0.25);
         background-color: #fff; }
-    .container .header .burger__box .contact__menu-non, .sections .header .burger__box .contact__menu-non, .section .header .burger__box .contact__menu-non {
+    .container .header .burger__box .contact__menu-non,
+    .sections .header .burger__box .contact__menu-non,
+    .section .header .burger__box .contact__menu-non {
       display: none; }
-      .container .header .burger__box .contact__menu-non::before, .sections .header .burger__box .contact__menu-non::before, .section .header .burger__box .contact__menu-non::before {
+      .container .header .burger__box .contact__menu-non::before,
+      .sections .header .burger__box .contact__menu-non::before,
+      .section .header .burger__box .contact__menu-non::before {
         -webkit-transform: scaleX(0.3826) scaleY(0.27);
         -ms-transform: scaleX(0.3826) scaleY(0.27);
         transform: scaleX(0.3826) scaleY(0.27);
@@ -2933,7 +3526,9 @@ html, body {
       -ms-transform: scaleX(0) scaleY(0);
       transform: scaleX(0) scaleY(0);
       opacity: 0; } }
-    .container .header .burger__box .burger, .sections .header .burger__box .burger, .section .header .burger__box .burger {
+    .container .header .burger__box .burger,
+    .sections .header .burger__box .burger,
+    .section .header .burger__box .burger {
       width: 2.78em;
       height: 1.7em;
       background: none;
@@ -2942,13 +3537,17 @@ html, body {
       top: 17px;
       cursor: pointer;
       z-index: 999; }
-      .container .header .burger__box .burger::before, .sections .header .burger__box .burger::before, .section .header .burger__box .burger::before {
-        content: '';
+      .container .header .burger__box .burger::before,
+      .sections .header .burger__box .burger::before,
+      .section .header .burger__box .burger::before {
+        content: "";
         width: 60%;
         height: 2px;
         top: 12px; }
-      .container .header .burger__box .burger::after, .sections .header .burger__box .burger::after, .section .header .burger__box .burger::after {
-        content: '';
+      .container .header .burger__box .burger::after,
+      .sections .header .burger__box .burger::after,
+      .section .header .burger__box .burger::after {
+        content: "";
         width: 100%;
         height: 2px;
         position: absolute;
@@ -2957,13 +3556,17 @@ html, body {
         -webkit-transform: rotate(0deg);
         -ms-transform: rotate(0deg);
         transform: rotate(0deg); }
-    .container .header .burger__box .burger__active::before, .sections .header .burger__box .burger__active::before, .section .header .burger__box .burger__active::before {
+    .container .header .burger__box .burger__active::before,
+    .sections .header .burger__box .burger__active::before,
+    .section .header .burger__box .burger__active::before {
       top: 0;
       width: 100%;
       -webkit-transform: rotate(-45deg);
       -ms-transform: rotate(-45deg);
       transform: rotate(-45deg); }
-    .container .header .burger__box .burger__active::after, .sections .header .burger__box .burger__active::after, .section .header .burger__box .burger__active::after {
+    .container .header .burger__box .burger__active::after,
+    .sections .header .burger__box .burger__active::after,
+    .section .header .burger__box .burger__active::after {
       -webkit-transform: rotate(45deg);
       -ms-transform: rotate(45deg);
       transform: rotate(45deg); }
@@ -3008,32 +3611,10 @@ html, body {
       flex-wrap: nowrap; }
       .section0 .container__main .container__card {
         width: 320px;
-        height: 250px;
         margin-top: 20px;
         margin-bottom: 30px;
         margin-left: 0px;
         margin-right: 0px; }
-        .section0 .container__main .container__card .card__top {
-          width: 100%;
-          height: 63%; }
-          .section0 .container__main .container__card .card__top .card__img {
-            -webkit-user-drag: none;
-            -webkit-app-region: no-drag;
-            cursor: default; }
-        .section0 .container__main .container__card .card__bottom {
-          width: 100%;
-          height: 37%;
-          padding-left: 15px;
-          padding-top: 15px;
-          padding-right: 15px; }
-          .section0 .container__main .container__card .card__bottom .card__titel {
-            font-size: 18px;
-            line-height: 20px; }
-          .section0 .container__main .container__card .card__bottom .card__description {
-            font-size: 18px;
-            line-height: 20px;
-            margin-top: 10px;
-            cursor: pointer; }
 
   .footer {
     width: 100%;
@@ -3065,7 +3646,7 @@ html, body {
             font-size: 18px;
             line-height: 29px;
             letter-spacing: 0.04em;
-            color: #CCF381;
+            color: #ccf381;
             margin-top: 10px;
             text-align: center; }
             .footer .section__top .section__box .box__container .container__text::after {
