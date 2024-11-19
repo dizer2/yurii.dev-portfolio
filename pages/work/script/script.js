@@ -27,6 +27,7 @@ let opened = false;
 
 $(".burger").click(function () {
   if (opened == false) {
+    $(".contact__menu").show();
     $(".contact__box1").addClass("contact__box-active");
     setTimeout(() => {
       $(".contact__box2").addClass("contact2__box-active");
@@ -50,6 +51,7 @@ $(".burger").click(function () {
     $(".contact__menu").removeClass("contact__menu-active");
     $("[data-fs-scroll] .page.vertical").addClass("activesii");
     $(".contact__box1").removeClass("contact__box-active");
+    $(".contact__menu").hide();
 
     opened = false;
   }

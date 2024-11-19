@@ -163,13 +163,13 @@ body {
         .sections .header .burger__box .contact__menu .contact__box .contact__box1 .contact__text,
         .section .header .burger__box .contact__menu .contact__box .contact__box1 .contact__text {
           z-index: 9999;
-          font-family: "SF UI Text";
+          font-family: 'SF UI Text';
           font-style: normal;
           font-weight: 500;
           font-size: 20px;
           line-height: 29px;
           letter-spacing: 0.04em;
-          color: #4831d4;
+          color: #4831D4;
           cursor: pointer;
           margin-top: 20px;
           -webkit-text-decoration: none;
@@ -191,7 +191,7 @@ body {
             transition: 0.3s;
             width: 30px;
             height: 100%;
-            content: "";
+            content: '';
             position: absolute;
             left: 100%;
             -webkit-transform-origin: right;
@@ -210,7 +210,7 @@ body {
           transition: 0.3s;
           width: 30px;
           height: 100%;
-          content: "";
+          content: '';
           position: absolute;
           -webkit-transform-origin: right;
           -ms-transform-origin: right;
@@ -242,13 +242,13 @@ body {
           .sections .header .burger__box .contact__menu .contact__box .contact__box2 .contact__text2,
           .section .header .burger__box .contact__menu .contact__box .contact__box2 .contact__text2 {
             z-index: 9999;
-            font-family: "SF UI Text";
+            font-family: 'SF UI Text';
             font-style: normal;
             font-weight: 500;
             font-size: 20px;
             line-height: 29px;
             letter-spacing: 0.04em;
-            color: #cbcce8;
+            color: #CBCCE8;
             cursor: pointer;
             margin-top: 70px;
             text-transform: uppercase; }
@@ -256,13 +256,13 @@ body {
           .sections .header .burger__box .contact__menu .contact__box .contact__box2 .contact__text,
           .section .header .burger__box .contact__menu .contact__box .contact__box2 .contact__text {
             z-index: 9999;
-            font-family: "SF UI Text";
+            font-family: 'SF UI Text';
             font-style: normal;
             font-weight: 500;
             font-size: 20px;
             line-height: 29px;
             letter-spacing: 0.04em;
-            color: #4831d4;
+            color: #4831D4;
             cursor: pointer;
             -webkit-text-decoration: none;
             text-decoration: none;
@@ -283,7 +283,7 @@ body {
               transition: 0.3s;
               width: 30px;
               height: 100%;
-              content: "";
+              content: '';
               position: absolute;
               left: 100%;
               -webkit-transform-origin: right;
@@ -302,7 +302,7 @@ body {
             transition: 0.3s;
             width: 30px;
             height: 100%;
-            content: "";
+            content: '';
             position: absolute;
             -webkit-transform-origin: right;
             -ms-transform-origin: right;
@@ -390,7 +390,7 @@ body {
         transition: 0.3s;
         width: 100%;
         height: 100%;
-        content: "";
+        content: '';
         position: absolute;
         -webkit-transform-origin: top right;
         -ms-transform-origin: top right;
@@ -454,7 +454,7 @@ body {
       display: -ms-flexbox;
       display: inline-flex;
       margin-top: 0.699em;
-      color: var(--text-color, #4831d4);
+      color: var(--text-color, #4831D4);
       display: flex;
       flex-direction: column;
       align-items: flex-end;
@@ -465,7 +465,7 @@ body {
       .container .header .burger__box .burger::before,
       .sections .header .burger__box .burger::before,
       .section .header .burger__box .burger::before {
-        content: "";
+        content: '';
         width: 60%;
         height: 2px;
         position: absolute;
@@ -474,12 +474,12 @@ body {
         -webkit-transform: rotate(0deg);
         -ms-transform: rotate(0deg);
         transform: rotate(0deg);
-        background-color: var(--text-color, #4831d4);
+        background-color: var(--text-color, #4831D4);
         top: 12px; }
       .container .header .burger__box .burger::after,
       .sections .header .burger__box .burger::after,
       .section .header .burger__box .burger::after {
-        content: "";
+        content: '';
         width: 100%;
         height: 2px;
         position: absolute;
@@ -488,7 +488,7 @@ body {
         -webkit-transform: rotate(0deg);
         -ms-transform: rotate(0deg);
         transform: rotate(0deg);
-        background-color: var(--text-color, #4831d4); }
+        background-color: var(--text-color, #4831D4); }
     .container .header .burger__box .burger__active,
     .sections .header .burger__box .burger__active,
     .section .header .burger__box .burger__active {
@@ -503,14 +503,14 @@ body {
         -webkit-transform: rotate(-45deg);
         -ms-transform: rotate(-45deg);
         transform: rotate(-45deg);
-        background-color: #4831d4; }
+        background-color: #4831D4; }
       .container .header .burger__box .burger__active::after,
       .sections .header .burger__box .burger__active::after,
       .section .header .burger__box .burger__active::after {
         -webkit-transform: rotate(45deg);
         -ms-transform: rotate(45deg);
         transform: rotate(45deg);
-        background-color: #4831d4; }
+        background-color: #4831D4; }
 
 .section0 {
   width: 100%;
