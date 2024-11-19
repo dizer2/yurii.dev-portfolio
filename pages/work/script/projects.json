@@ -16,7 +16,6 @@
 		"link": "https://creator-it-academy.com/",
 		"imgLink": "it-creator-academy.jpg",
 		"figmaLink": "https://www.figma.com/design/4RDubsfyIRTiMyKf9k1TZz/IT-ACEDEMY?node-id=0-1&t=QlWZCfdlPeUdfoXP-1",
-		"gitHubLink": "https://github.com/azakharko/bright_kids_website",
 		"description": "Developed a website for a network of academies in Ukraine, focusing on the Home, Chart, Courses, and Maps sections. The project utilized the JavaScript libraries jQuery, Chart.js, Swiper.js, and the Google Maps API. Additionally, I developed the UX/UI aspects of the website, ensuring it is responsive and user-friendly.",
 		"tegList": ["#it", "#jQuery", "#chart.js", "#swiper.js"]
 	},
