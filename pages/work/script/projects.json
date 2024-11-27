@@ -62,9 +62,8 @@
 		"id": 7,
 		"title": "Okolus (PET)",
 		"subTitle": "Modern UI Design for an Eyewear Agency",
-		"link": "https://www.figma.com/proto/yuERnwZUVgMkdgKAeTmvyh/Okolus?type=design&node-id=106-2330&t=O4oLZLUOadUD8Vlc-1&scaling=scale-down&page-id=0%3A1&starting-point-node-id=106%3A2330&mode=design",
+		"link": "https://www.figma.com/proto/yuERnwZUVgMkdgKAeTmvyh/Okolus?node-id=1-2&node-type=frame&t=Ds1EWxsly54vSFkj-1&scaling=scale-down&content-scaling=fixed&page-id=0%3A1&starting-point-node-id=106%3A2330&show-proto-sidebar=1",
 		"imgLink": "okolus.jpg",
-		"gitHubLink": "https://github.com/dizer2/next-blog",
 		"description": "I developed this web design as a personal project to enhance my UI/UX design skills, combining advanced tools with Figma for prototyping. The site features interactive sliders and hover effects, providing a sleek, responsive experience. This project helped me practice blending design elements with functionality, resulting in a polished product.",
 		"tegList": ["#design","#ui/ux", "#figma", "#animation"]
 	},
