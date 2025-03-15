@@ -1,5 +1,14 @@
 [
 	{
+		"id": 14324,
+		"title": "WebTime Studio Portfolio (PET)",
+		"subTitle": "WebTime Studio Portfolio",
+		"link": "https://webtime.vercel.app/",
+		"imgLink": "webtime.png",
+		"description": "Designed and developed a personal studio website as a passion project to showcase my skills and creativity. Built with React.js, the site highlights my expertise in web development and design, offering a seamless and visually appealing user experience. This project allowed me to experiment with modern web technologies, implement interactive elements using Three.js, and refine my approach to creating professional portfolio websites.",
+		"tegList": ["#it", "#react", "#three.js", "figma"]
+	},
+	{
 		"id": 1,
 		"title": "Brightkids school (USA)",
 		"subTitle": "Bright Kids Ukrainian Online School",
@@ -40,13 +49,14 @@
 		"tegList": ["#it","#jQuery", "#swiper.js", "radio API"]
 	},
 	{
-		"id": 5,
-		"title": "Essentialyfe (USA)",
-		"subTitle": "Estate Agency in Los Angeles",
-		"link": "https://www.figma.com/proto/FN75irawI6Gg5IU1A2vTfv/Redesign-Essentialyfe?type=design&node-id=6-215&t=FwmgA4dSpjTkScOf-1&scaling=scale-down&page-id=0%3A1&starting-point-node-id=44%3A3845&mode=design",
-		"imgLink": "essentialyfe.jpg",
-		"description": "Redesigned interview tasks for Essentialyfe, a company based in Los Angeles. Developed a fully animated prototype in Figma, showcasing my design and technical skills. As part of the interview process, I presented the project in English, which helped improve both my public speaking and English communication skills.",
-		"tegList": ["#design","#figma", "#ui/ux", "animation"]
+		"id": 4424262,
+		"title": "Tatra Capital Group (UK)",
+		"subTitle": "Tatra Capital Group",
+		"link": "https://www.tatracapitalgroup.com/",
+		"imgLink": "tartara.jpg",
+		"gitHubLink": "https://github.com/dizer2/tatracapitalgroup",
+		"description": "Developed a website for a UK client using Next.js and MongoDB, featuring a fully custom admin panel for complete content management. This project allowed me to enhance my backend skills while ensuring seamless content customization.",
+		"tegList": ["#it"]
 	},
 	{
 		"id": 6,
@@ -68,13 +78,49 @@
 		"tegList": ["#design","#ui/ux", "#figma", "#animation"]
 	},
 	{
+		"id": 8362,
+		"title": "Cosmic AI (USA)",
+		"subTitle": "Logo Design for Cosmic AI",
+		"link": "https://www.figma.com/design/kPw8jiGWwuPP27Br3GTOQF/Cosmic-GATE?node-id=0-1&t=joryCDFAUN4hHwuR-1",
+		"imgLink": "cosmic-logo.png",
+		"description": "I designed the Cosmic AI logo for a New York-based client, specializing in AI-powered ticketing and event management. The logo, created in Figma and Adobe Illustrator, captures the futuristic and innovative nature of the company, with a sleek design that reflects its focus on AI technology. This project helped me explore branding for tech-driven companies while emphasizing a dynamic and professional identity for Cosmic AI's website and event ticketing solutions.",
+		"tegList": ["#design","#illustrator", "#logo"]
+	},
+	{
+		"id": 438,
+		"title": "VroomBroom (CZ)",
+		"subTitle": "Logo Design for a Modern Medical Company",
+		"link": "https://www.figma.com/design/bSMmVe49ijbya46txnVtgK/VroomBroom-Portfolio?node-id=0-1&t=RdaFeFaCySsw2xAY-1",
+		"imgLink": "vroombroom.png",
+		"description": "I designed the VroomBroom mobile app for a Czech client, focusing on providing a seamless experience for managing car details. The app, built in Figma, allows users to easily track essential information such as documents, maintenance dates, and service updates. This project helped me refine my skills in UI/UX design, focusing on creating an intuitive, user-friendly interface to keep car owners organized and informed.",
+		"tegList": ["#design","#figma", "#app"]
+	},
+	{
+		"id": 8362,
+		"title": "WebTime Logo (PET)",
+		"subTitle": "Logo Design for a Web Development Studio",
+		"link": "https://www.figma.com/design/GOyomQUxuhe9uyCOiVRdqb/Webtime-Studio?node-id=0-1&t=4FOltn2kWRa3Lono-1",
+		"imgLink": "webtime-logo.jpg",
+		"description": "I designed the WebTime Studio logo, aiming for a modern and dynamic look that reflects the studio's innovative approach to web development. Crafted with precision using Adobe Illustrator, the logo embodies creativity, professionalism, and the studio's commitment to delivering high-quality digital experiences.",
+		"tegList": ["#design","#illustrator", "#logo"]
+	},
+	{
 		"id": 8,
 		"title": "СоноМед (UA)",
 		"subTitle": "Logo Design for a Modern Medical Company",
 		"link": "https://www.figma.com/design/nhSxEmRTIuYtooIkiuwPly/%D0%A1%D0%BE%D0%BD%D0%BE-%D0%BC%D0%B5%D0%B4?node-id=0-1&node-type=canvas&t=7IQMPKWUDRZMV8JU-0",
 		"imgLink": "sonomed.jpg",
-		"description": "I designed a logo for a medical company in Ukraine, focusing on a clean and modern aesthetic. The logo was crafted using Adobe Illustrator, emphasizing professionalism and trust. This project allowed me to explore branding concepts and develop my skills in logo design",
+		"description": "I designed a logo for a medical company in Ukraine, focusing on a clean and modern aesthetic. The logo was crafted using Adobe Illustrator, emphasizing professionalism and trust. This project allowed me to explore branding concepts and develop my skills in logo design.",
 		"tegList": ["#design","#illustrator", "#logo"]
+	},
+	{
+		"id": 5,
+		"title": "Essentialyfe (USA)",
+		"subTitle": "Estate Agency in Los Angeles",
+		"link": "https://www.figma.com/proto/FN75irawI6Gg5IU1A2vTfv/Redesign-Essentialyfe?type=design&node-id=6-215&t=FwmgA4dSpjTkScOf-1&scaling=scale-down&page-id=0%3A1&starting-point-node-id=44%3A3845&mode=design",
+		"imgLink": "essentialyfe.jpg",
+		"description": "Redesigned interview tasks for Essentialyfe, a company based in Los Angeles. Developed a fully animated prototype in Figma, showcasing my design and technical skills. As part of the interview process, I presented the project in English, which helped improve both my public speaking and English communication skills.",
+		"tegList": ["#design","#figma", "#ui/ux", "animation"]
 	},
 	{
 		"id": 9,
